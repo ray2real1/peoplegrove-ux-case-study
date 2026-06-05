@@ -1,0 +1,9 @@
+.next
+node_modules
+out
+*.log
+.vercel
+.DS_Store
+
+# Preserved non-approved/contaminated source assets — kept locally, excluded from the repo
+unused-assets/
