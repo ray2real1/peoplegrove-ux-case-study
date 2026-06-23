@@ -1,9 +1,11 @@
 import { CTAButton } from "@/components/CTAButton";
 import { DecisionCard } from "@/components/DecisionCard";
 import { LifecycleFlow } from "@/components/LifecycleFlow";
+import { OpportunityLoop } from "@/components/OpportunityLoop";
 import { Pill } from "@/components/Pill";
 import { ProjectCard } from "@/components/ProjectCard";
 import { ScreenFrame } from "@/components/ScreenFrame";
+import { ScreenResponsibilityMatrix } from "@/components/ScreenResponsibilityMatrix";
 import { ScreenShowcase } from "@/components/ScreenShowcase";
 import { Section } from "@/components/Section";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -29,6 +31,7 @@ import {
   accessibilityPoints,
   decisions,
   deliverables,
+  designJudgment,
   links,
   problems,
   screens,
@@ -214,6 +217,24 @@ export default function Home() {
         </Section>
 
         <Section
+          id="loop"
+          eyebrow="Decision System"
+          title="From search flow to decision system."
+          intro="The seven screens are not isolated views. They form one opportunity loop — discover, narrow, evaluate, and track — where each stage answers the question the student is actually asking and carries them to the next."
+        >
+          <OpportunityLoop />
+        </Section>
+
+        <Section
+          id="matrix"
+          eyebrow="Screen Responsibility Matrix"
+          title="Every screen has one job and one decision to support."
+          intro="A recruiter-scannable view of what each prototype screen is responsible for, the decision it supports, and the friction it is designed to remove. Framing reflects design rationale, not measured outcomes."
+        >
+          <ScreenResponsibilityMatrix />
+        </Section>
+
+        <Section
           id="decisions"
           eyebrow="Design Decisions"
           title="The redesign is organized around six product decisions."
@@ -228,6 +249,21 @@ export default function Home() {
                 title={decision.title}
                 body={decision.body}
               />
+            ))}
+          </div>
+        </Section>
+
+        <Section
+          id="judgment"
+          eyebrow="Design Judgment"
+          title="The trade-offs behind the prototype."
+          intro="A case study is also about what was left out. These notes describe design rationale and proposed next steps — not validated results or shipped product decisions."
+        >
+          <div className="grid gap-4 md:grid-cols-3">
+            {designJudgment.map((card) => (
+              <ProjectCard key={card.label} title={card.label}>
+                {card.body}
+              </ProjectCard>
             ))}
           </div>
         </Section>
