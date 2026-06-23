@@ -12,8 +12,10 @@ export const nav: NavItem[] = [
   { id: "thesis", label: "Thesis" },
   { id: "lifecycle", label: "Lifecycle" },
   { id: "prototype", label: "Prototype" },
+  { id: "loop", label: "Loop" },
+  { id: "matrix", label: "Matrix" },
   { id: "decisions", label: "Decisions" },
-  { id: "deliverables", label: "Deliverables" }
+  { id: "judgment", label: "Judgment" }
 ];
 
 export type Screen = {
@@ -152,3 +154,128 @@ export const snapshot = [
     body: "Figma, FigJam, UX research methods, prototyping, accessibility review"
   }
 ] as const;
+
+/**
+ * The opportunity loop: the four-stage decision-support framing that ties the
+ * seven prototype screens into one continuous journey rather than isolated views.
+ */
+export type LoopStage = {
+  index: number;
+  label: string;
+  /** The question the student is asking at this point in the journey. */
+  question: string;
+  /** The design rationale that answers it. */
+  decision: string;
+  /** Prototype screens that carry this stage (names match the seven screens above). */
+  screens: string[];
+};
+
+export const opportunityLoop: LoopStage[] = [
+  {
+    index: 1,
+    label: "Discover",
+    question: "What is worth my attention?",
+    decision: "Prioritize relevant opportunities over raw volume.",
+    screens: ["Dashboard", "Search"]
+  },
+  {
+    index: 2,
+    label: "Narrow",
+    question: "How do I reduce the list without losing good options?",
+    decision: "Use interest-matched signals, filters, and saved states.",
+    screens: ["Search", "Filter", "Interests"]
+  },
+  {
+    index: 3,
+    label: "Evaluate",
+    question: "Is this worth applying to?",
+    decision:
+      "Make requirements, deadlines, format, and fit easier to compare.",
+    screens: ["Detail"]
+  },
+  {
+    index: 4,
+    label: "Track",
+    question: "What did I save, and what needs action?",
+    decision:
+      "Turn saved opportunities into a return path, not a dead-end bookmark.",
+    screens: ["Save", "Tracker"]
+  }
+];
+
+/**
+ * Screen responsibility matrix: a recruiter-scannable mapping of each prototype
+ * screen to the job it does, the decision it supports, and the friction it removes.
+ */
+export type ScreenResponsibility = {
+  screen: string;
+  job: string;
+  decision: string;
+  risk: string;
+};
+
+export const screenResponsibilities: ScreenResponsibility[] = [
+  {
+    screen: "Dashboard",
+    job: "Resume progress",
+    decision: "Where should I focus today?",
+    risk: "Reduces restart friction"
+  },
+  {
+    screen: "Search",
+    job: "Explore options",
+    decision: "Which opportunities match my goals?",
+    risk: "Reduces discovery overload"
+  },
+  {
+    screen: "Filter",
+    job: "Narrow the set",
+    decision: "Which of these actually fit?",
+    risk: "Reduces irrelevant noise"
+  },
+  {
+    screen: "Detail",
+    job: "Evaluate fit",
+    decision: "Should I apply?",
+    risk: "Reduces ambiguity"
+  },
+  {
+    screen: "Save",
+    job: "Capture with intent",
+    decision: "How do I keep this for later?",
+    risk: "Reduces loss of good options"
+  },
+  {
+    screen: "Tracker",
+    job: "Maintain continuity",
+    decision: "What needs follow-up?",
+    risk: "Reduces drop-off"
+  },
+  {
+    screen: "Interests",
+    job: "Tune relevance",
+    decision: "How do I see better next time?",
+    risk: "Reduces repeat-search effort"
+  }
+];
+
+/** Design judgment: a mature read on the trade-offs behind the prototype. */
+export type Judgment = {
+  label: string;
+  body: string;
+};
+
+export const designJudgment: Judgment[] = [
+  {
+    label: "What I prioritized",
+    body: "Continuity, decision clarity, and low-friction return paths — so each screen hands the student to the next decision instead of ending the flow."
+  },
+  {
+    label: "What I intentionally avoided",
+    body: "A generic job-board pattern that treats every opportunity as equal. The framing leans on relevance and follow-through rather than raw listing volume."
+  },
+  {
+    label: "What I would test next",
+    body: "Whether students can resume from saved opportunities and understand their next action without re-searching — a proposed concept-validation test, not a measured result."
+  }
+];
