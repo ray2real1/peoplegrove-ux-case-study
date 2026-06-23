@@ -7,3 +7,6 @@ out
 
 # Preserved non-approved/contaminated source assets — kept locally, excluded from the repo
 unused-assets/
+
+# TypeScript incremental build info
+*.tsbuildinfo
