@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 
 type SectionProps = {
@@ -12,6 +12,14 @@ type SectionProps = {
   className?: string;
 };
 
+/**
+ * Scroll-reveal is progressive enhancement, not a prerequisite for reading.
+ *
+ * The section renders visible by default. The hidden-then-reveal state is only
+ * applied when JS is available (`html.js`) and the user allows motion, so content
+ * can never be stranded at opacity 0 if JS, hydration, or IntersectionObserver
+ * fails. A timeout also force-reveals if the observer never fires.
+ */
 export function Section({
   id,
   eyebrow,
@@ -20,17 +28,48 @@ export function Section({
   children,
   className = ""
 }: SectionProps) {
-  const reduceMotion = useReducedMotion();
+  const ref = useRef<HTMLElement | null>(null);
+  const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    if (typeof IntersectionObserver === "undefined") {
+      setRevealed(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setRevealed(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "-120px 0px" }
+    );
+    observer.observe(el);
+
+    // Safety net: if the observer never fires (headless capture, programmatic
+    // scrolling, or an unsupported environment), reveal anyway.
+    const fallback = window.setTimeout(() => {
+      setRevealed(true);
+      observer.disconnect();
+    }, 1500);
+
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(fallback);
+    };
+  }, []);
 
   return (
-    <motion.section
+    <section
+      ref={ref}
       id={id}
       aria-labelledby={id && title ? `${id}-heading` : undefined}
-      className={`mx-auto w-full max-w-7xl scroll-mt-24 px-5 py-16 sm:px-8 lg:px-10 lg:py-24 ${className}`}
-      initial={reduceMotion ? false : { opacity: 0, y: 24 }}
-      whileInView={reduceMotion ? undefined : { opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-120px" }}
-      transition={{ duration: 0.55, ease: "easeOut" }}
+      className={`reveal ${revealed ? "reveal-visible" : ""} mx-auto w-full max-w-7xl scroll-mt-24 px-5 py-16 sm:px-8 lg:px-10 lg:py-24 ${className}`}
     >
       {(eyebrow || title || intro) && (
         <div className="mb-10 max-w-3xl">
@@ -56,6 +95,6 @@ export function Section({
         </div>
       )}
       {children}
-    </motion.section>
+    </section>
   );
 }

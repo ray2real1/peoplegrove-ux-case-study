@@ -9,9 +9,11 @@ export function SiteFooter() {
             PeopleGrove Opportunity Discovery &amp; Tracking
           </p>
           <p className="mt-1 max-w-xl text-xs leading-5 text-ice/55">
-            UX internship case study. A self-directed concept prototype — not a
-            shipped PeopleGrove product. No launch, adoption, or engagement
-            outcomes are claimed.
+            UX design internship project completed through WGU&rsquo;s Applied
+            Learning Capstone, with PeopleGrove as employer partner. A
+            self-directed concept prototype — not commissioned, implemented, or
+            endorsed by PeopleGrove, and not a shipped PeopleGrove product. No
+            launch, adoption, or engagement outcomes are claimed.
           </p>
         </div>
         <nav aria-label="Footer links" className="flex flex-wrap gap-x-5 gap-y-2 text-xs font-medium">

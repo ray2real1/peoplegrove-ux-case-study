@@ -15,7 +15,8 @@ export const nav: NavItem[] = [
   { id: "loop", label: "Loop" },
   { id: "matrix", label: "Matrix" },
   { id: "decisions", label: "Decisions" },
-  { id: "judgment", label: "Judgment" }
+  { id: "judgment", label: "Judgment" },
+  { id: "testing", label: "Testing" }
 ];
 
 export type Screen = {
@@ -141,13 +142,46 @@ export const deliverables: string[] = [
   "Case study PDF",
   "Annotated screens",
   "Lifecycle flow",
+  "Moderated usability test (3 proxy participants)",
   "Accessibility review",
   "Final product recommendation"
 ];
 
+/**
+ * Usability testing evidence.
+ *
+ * CLAIM GOVERNANCE — these findings are conditionally usable only.
+ * Every citation of a number below MUST carry all four qualifiers:
+ *   n=3 · proxy participants (classmates) · low-fidelity prototype · indicative, not conclusive
+ * These are NOT real PeopleGrove production users and NOT field-performance evidence.
+ * Do not convert into product performance, business outcomes, production validation,
+ * statistical significance, or PeopleGrove implementation outcomes.
+ */
+export const usabilityTest = {
+  method:
+    "Moderated, task-based think-aloud usability test on the low-fidelity prototype, mobile frame.",
+  participants:
+    "Three proxy participants — classmates acting as stand-in WGU students. Not real PeopleGrove platform users.",
+  results: [
+    { metric: "Tasks completed unaided", value: "8 of 9" },
+    { metric: "Average ease (SEQ, 1–7)", value: "6.0" },
+    { metric: "Average confidence (1–5)", value: "4.3" }
+  ],
+  friction:
+    "Two label wordings and filter discoverability surfaced as the most common friction points.",
+  limitation:
+    "Indicative, not conclusive. With three proxy participants on a low-fidelity prototype, these results signal direction — they are not evidence of field performance, product impact, or real-user behavior at scale."
+} as const;
+
 export const snapshot = [
-  { title: "Role", body: "UX Design Intern" },
-  { title: "Project Type", body: "UX Internship Case Study" },
+  {
+    title: "Role",
+    body: "UX design internship — sole designer and frontend builder"
+  },
+  {
+    title: "Project Type",
+    body: "UX design internship completed through WGU's Applied Learning Capstone (D657); PeopleGrove as employer partner"
+  },
   { title: "Focus", body: "Opportunity discovery, filtering, saving, and tracking" },
   {
     title: "Tools",

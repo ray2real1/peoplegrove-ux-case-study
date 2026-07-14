@@ -64,6 +64,39 @@ body {
   outline-offset: 2px;
 }
 
+/*
+ * Scroll reveal — progressive enhancement only.
+ *
+ * Sections are VISIBLE by default. The hidden-then-reveal state applies only when
+ * JS is available (`html.js`), so content can never be stranded invisible if JS,
+ * hydration, or IntersectionObserver fails. Reduced-motion users get static
+ * visible content with no transition.
+ */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js .reveal {
+  transition:
+    opacity 0.55s ease-out,
+    transform 0.55s ease-out;
+}
+
+.js .reveal:not(.reveal-visible) {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal,
+  .js .reveal:not(.reveal-visible) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

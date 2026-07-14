@@ -35,7 +35,8 @@ import {
   links,
   problems,
   screens,
-  snapshot
+  snapshot,
+  usabilityTest
 } from "@/content/caseStudy";
 
 export default function Home() {
@@ -55,7 +56,9 @@ export default function Home() {
           />
           <div className="min-w-0">
             <div className="mb-6 flex flex-wrap gap-2">
-              <Pill tone="blue">UX Internship Case Study</Pill>
+              <Pill tone="blue">
+                PeopleGrove UX Design Internship · WGU Applied Learning Capstone
+              </Pill>
               <Pill>Opportunity lifecycle prototype</Pill>
             </div>
             <h1 className="max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-[-0.055em] text-white sm:text-6xl lg:text-[4.5rem]">
@@ -63,10 +66,12 @@ export default function Home() {
               <span className="text-sky">decision-support journey</span>
             </h1>
             <p className="mt-7 max-w-2xl text-pretty text-lg leading-8 text-ice/85 sm:text-xl">
-              A UX internship case study that reframes opportunity discovery as a
-              continuous journey rather than a one-time search event — helping
-              students find relevant opportunities, narrow results, save with
-              confidence, and return with a clear next step.
+              A UX design internship project, completed through WGU&rsquo;s Applied
+              Learning Capstone with PeopleGrove as the employer partner. It
+              reframes opportunity discovery as a continuous journey rather than a
+              one-time search event — helping students find relevant
+              opportunities, narrow results, save with confidence, and return with
+              a clear next step.
             </p>
             <p className="mt-5 max-w-2xl text-base leading-7 text-ice/70">
               Designed as a 7-screen clickable prototype connecting dashboard
@@ -89,7 +94,7 @@ export default function Home() {
                   Role
                 </dt>
                 <dd className="mt-1 text-sm font-semibold text-white">
-                  UX Design Intern
+                  UX design internship — sole designer &amp; frontend builder
                 </dd>
               </div>
               <div>
@@ -265,6 +270,37 @@ export default function Home() {
                 {card.body}
               </ProjectCard>
             ))}
+          </div>
+        </Section>
+
+        <Section
+          id="testing"
+          eyebrow="Usability Testing"
+          title="I tested the flow — and I report exactly what that test can and cannot prove."
+          intro={`${usabilityTest.method} ${usabilityTest.participants}`}
+        >
+          <div className="grid gap-4 sm:grid-cols-3">
+            {usabilityTest.results.map((r) => (
+              <div
+                key={r.metric}
+                className="rounded-2xl border border-white/10 bg-white/[0.045] px-5 py-6"
+              >
+                <p className="text-3xl font-semibold tracking-[-0.03em] text-white">
+                  {r.value}
+                </p>
+                <p className="mt-2 text-sm font-medium text-ice/70">
+                  {r.metric}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 grid gap-4 lg:grid-cols-2">
+            <ProjectCard title="What surfaced">
+              {usabilityTest.friction}
+            </ProjectCard>
+            <ProjectCard title="What this does not prove" accent>
+              {usabilityTest.limitation}
+            </ProjectCard>
           </div>
         </Section>
 
