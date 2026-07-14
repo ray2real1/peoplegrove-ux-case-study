@@ -10,3 +10,6 @@ unused-assets/
 
 # TypeScript incremental build info
 *.tsbuildinfo
+
+# Generated screenshot captures (see docs/PEOPLEGROVE_CAPTURE_WORKFLOW.md)
+artifacts/

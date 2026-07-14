@@ -45,7 +45,10 @@ export default function Home() {
       <SiteHeader />
 
       <main id="top" className="scroll-mt-24 overflow-hidden">
-        <section className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16 lg:px-10 lg:py-28">
+        <section
+          id="hero"
+          className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16 lg:px-10 lg:py-28"
+        >
           <div
             aria-hidden="true"
             className="absolute left-[18%] top-10 -z-10 h-[26rem] w-[26rem] -translate-x-1/2 rounded-full bg-sky/12 blur-3xl"
@@ -135,6 +138,7 @@ export default function Home() {
         </section>
 
         <Section
+          id="snapshot"
           eyebrow="Project Snapshot"
           title="A focused prototype for opportunity discovery and follow-through"
         >
@@ -305,6 +309,7 @@ export default function Home() {
         </Section>
 
         <Section
+          id="accessibility"
           eyebrow="Accessibility & UX Quality"
           title="Accessibility was treated as product structure, not a final polish pass."
           intro="The prototype emphasizes readable hierarchy, strong contrast, visible focus states, clear labels, non-color-only status cues, mobile responsiveness, reduced cognitive load, restrained motion, semantic structure, and alt text."
