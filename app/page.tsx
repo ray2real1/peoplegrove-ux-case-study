@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-4 border-t border-white/10 pt-7">
               <div>
-                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/50">
+                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/70">
                   Role
                 </dt>
                 <dd className="mt-1 text-sm font-semibold text-white">
@@ -101,7 +101,7 @@ export default function Home() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/50">
+                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/70">
                   Scope
                 </dt>
                 <dd className="mt-1 text-sm font-semibold text-white">
@@ -109,7 +109,7 @@ export default function Home() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/50">
+                <dt className="text-xs font-medium uppercase tracking-[0.18em] text-ice/70">
                   Focus
                 </dt>
                 <dd className="mt-1 text-sm font-semibold text-white">

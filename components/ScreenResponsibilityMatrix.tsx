@@ -61,13 +61,13 @@ export function ScreenResponsibilityMatrix() {
             <p className="text-sm font-semibold text-white">{row.screen}</p>
             <dl className="mt-3 grid gap-2.5">
               <div>
-                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/50">
+                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/70">
                   Primary job
                 </dt>
                 <dd className="mt-0.5 text-sm text-ice/80">{row.job}</dd>
               </div>
               <div>
-                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/50">
+                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/70">
                   Decision supported
                 </dt>
                 <dd className="mt-0.5 text-sm text-ice/80">
@@ -75,7 +75,7 @@ export function ScreenResponsibilityMatrix() {
                 </dd>
               </div>
               <div>
-                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/50">
+                <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ice/70">
                   UX risk reduced
                 </dt>
                 <dd className="mt-0.5 text-sm font-medium text-mint">

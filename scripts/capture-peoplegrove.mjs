@@ -285,6 +285,50 @@ async function captureElement(page, name, selector, outDir) {
   return { name, selector, ...box, ...out, file };
 }
 
+/**
+ * Deterministic hero-composition source.
+ *
+ * A raw #hero element screenshot picks up the sticky header (z-40) and the
+ * fixed skip-link because centering a taller-than-viewport hero floats them
+ * over its top edge. Instead: scroll to the very top, drop focus (so the
+ * skip-link stays hidden), read the sticky header's height live, and clip the
+ * hero region STARTING BELOW that header band. No layout mutation, no
+ * screenshot-only hack, and the crop self-adjusts if the header height changes.
+ *
+ * Output is a clean landscape-capable hero source with the project title,
+ * status pill, and lead screens — reusable for LinkedIn / OG composition.
+ */
+async function captureHeroSource(page, name, outDir) {
+  const clip = await page.evaluate(() => {
+    window.scrollTo(0, 0);
+    if (document.activeElement && document.activeElement.blur) {
+      document.activeElement.blur();
+    }
+    const header = document.querySelector("header");
+    const hero = document.querySelector("#hero");
+    const hb = header ? header.getBoundingClientRect() : { height: 0 };
+    const r = hero.getBoundingClientRect();
+    const top = Math.round(r.top + hb.height + 8); // start just below the header band
+    return {
+      x: Math.max(Math.round(r.left), 0),
+      y: Math.max(top, 0),
+      width: Math.round(r.width),
+      height: Math.round(r.bottom - top)
+    };
+  });
+  await new Promise((r) => setTimeout(r, 300));
+  const file = path.join(outDir, `${name}.png`);
+  await page.screenshot({ path: file, clip });
+  const out = await verifyOutput(file);
+  console.log(
+    `  ✅ ${name.padEnd(22)} ${"#hero (below-header clip)".padEnd(16)} ` +
+      `clip ${clip.width}x${clip.height} @ y${clip.y}  ` +
+      `→ ${path.relative(process.cwd(), file)}  ${(out.size / 1024).toFixed(0)}KB  ` +
+      `${out.width}x${out.height}  ${out.bytesPerPixel.toFixed(3)} B/px`
+  );
+  return { name, ...out, file, clip };
+}
+
 async function captureFullPage(page, name, outDir) {
   await page.evaluate(() => window.scrollTo(0, 0));
   // Force every reveal to settle before a full-page shot.
@@ -397,6 +441,12 @@ async function main() {
       await page.setViewport(VIEWPORTS.mobile);
       await waitForPageReady(page);
       await run(() => captureFullPage(page, "fullpage-mobile", outDir));
+    } else if (args.mode === "hero") {
+      // Clean hero-composition source (desktop), then mobile equivalent.
+      await run(() => captureHeroSource(page, "hero-source-desktop", outDir));
+      await page.setViewport(VIEWPORTS.mobile);
+      await waitForPageReady(page);
+      await run(() => captureHeroSource(page, "hero-source-mobile", outDir));
     } else if (args.mode === "element") {
       if (!args.selector) {
         console.error("--mode element requires --selector");

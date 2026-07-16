@@ -38,14 +38,14 @@ export function OpportunityLoop() {
                 </h3>
               </div>
 
-              <p className="mt-5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-ice/50">
+              <p className="mt-5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-ice/70">
                 User question
               </p>
               <p className="mt-1.5 text-sm font-semibold leading-6 text-white">
                 &ldquo;{stage.question}&rdquo;
               </p>
 
-              <p className="mt-4 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-ice/50">
+              <p className="mt-4 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-ice/70">
                 UX decision
               </p>
               <p className="mt-1.5 text-sm leading-6 text-ice/[0.72]">
