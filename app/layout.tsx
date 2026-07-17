@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     siteName: "PeopleGrove Case Study",
     images: [
       {
-        url: "/images/peoplegrove-dashboard.png",
-        width: 1170,
-        height: 2532,
-        alt: "PeopleGrove prototype dashboard screen."
+        url: "/images/social/peoplegrove-og-1200x630.png",
+        width: 1200,
+        height: 630,
+        alt: "PeopleGrove UX design internship case study completed through WGU's Applied Learning Capstone, showing a mobile opportunity-discovery interface."
       }
     ]
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description,
-    images: ["/images/peoplegrove-dashboard.png"]
+    images: ["/images/social/peoplegrove-og-1200x630.png"]
   }
 };
 

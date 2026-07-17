@@ -129,7 +129,7 @@ The current OG metadata points at a **portrait** phone screenshot (declared 1170
 - **Alt text:** same as OG
 
 ### Portfolio-card thumbnail
-- **Ratio:** confirm against the portfolio hub before Run 2. Hub not inspected this run — **UNRESOLVED**; default to 1200×800 (3:2) if unconfirmed.
+- **Ratio:** **4:3 / 1200×900** — VERIFIED against the portfolio hub. The PeopleGrove card is rendered by `RangeStrip.tsx` at a fixed `aspect-[4/3]` card window (no responsive override), so the correct portfolio-card export is 1200×900. (Supersedes the earlier unconfirmed 1200×800 / 3:2 default.)
 - **Source asset:** focal crop of `hero-source-desktop.png` centered on the H1 + lead phone
 - **Focal point:** H1 "decision-support journey" + Dashboard screen
 - **Export path:** `artifacts/captures/social/portfolio-card.png`
