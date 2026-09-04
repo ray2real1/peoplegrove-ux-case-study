@@ -17,7 +17,7 @@ else honest STOP).
 | 05 | Five Rooms, One Week | CONSTRUCTIBLE+PHOTO | PENDING | ruler VERIFIED; 5 territory plates from V2 storyboard rasters |
 | 06 | One Unbroken Strip | CONSTRUCTIBLE | PASS | 6 RECOVERED screens as continuous ribbon; Nursing card crosses every seam; ring→seal at Save seam; path baseline; Interests fold |
 | 07 | The Almost-Aligned Angle | CONSTRUCTIBLE | PENDING | CSS-3D 5 zones, −32 overhang; PROOF: dual-read |
-| 08 | Hanging by a Date | CONSTRUCTIBLE | PENDING | exact card + physical lean; needs tab-position measure |
+| 08 | Hanging by a Date | CONSTRUCTIBLE | PASS (flagship) | RECOVERED Nursing card; R=card+OCT3 tab; centroid-below-pivot θ=136.94° derived; hard shadow; open ring; non-emissive yellow; uncropped |
 | 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
 | 10 | Everything, Drawn Once | CONSTRUCTIBLE | PENDING | token inventory flat-lay |
 | 11 | One Screen, Three Distances | CONSTRUCTIBLE | PASS (recovered) | REBUILT on RECOVERED canonical Dashboard pixels (p6 @600dpi); 3 magnifications of one identical render |
