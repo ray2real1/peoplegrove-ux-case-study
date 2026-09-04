@@ -10,15 +10,15 @@ else honest STOP).
 
 | Beat | Title | Class | Status | Notes |
 |---|---|---|---|---|
-| 01 | The Board and the Table | PHOTO | PENDING | corkboard+Maya blur; V2 p1 plate is a different frame → PATH-B/ STOP risk |
-| 02 | Friday's Archaeology | PHOTO | PENDING | hand lifting flyers; STOP risk |
+| 01 | The Board and the Table | PHOTO | CANDIDATE (gallery) | env base generated (Higgsfield c9eb5ecb, 2K); phone Dashboard composite egress-blocked; Raymond review |
+| 02 | Friday's Archaeology | PHOTO | CANDIDATE (gallery) | complete plate generated (Higgsfield 1b39c32b, 2K); no UI; egress blocks local PDF inclusion; Raymond review |
 | 03 | The Honest Pairs | CONSTRUCTIBLE | PASS (v1) | 4 pinned source→result pairs from canon p3 (theme CSS, platform, placement model, contrast repairs); qualifier verbatim; A16 blocker resolved |
-| 04 | Where You Left Off | PHOTO | PENDING | locker hall + resume card; STOP risk |
+| 04 | Where You Left Off | PHOTO | CANDIDATE (gallery) | env base generated (Higgsfield 264af713, 2K); resume-card composite egress-blocked; Raymond review |
 | 05 | Five Rooms, One Week | MIXED | PASS (v1) | verified week ruler + 5 timestamps + eleven-min marker; 5 RECOVERED V2 territories, authored widths, 5 light temps; Friday off-trim |
 | 06 | One Unbroken Strip | CONSTRUCTIBLE | PASS | 6 RECOVERED screens as continuous ribbon; Nursing card crosses every seam; ring→seal at Save seam; path baseline; Interests fold |
 | 07 | The Almost-Aligned Angle | MIXED | CANDIDATE | CSS-3D 5 white zones at verified geometry, −32 overhang, 5°-off camera; dual-read proof saved; hand (photographic) pending Raymond |
 | 08 | Hanging by a Date | CONSTRUCTIBLE | PASS (flagship) | RECOVERED Nursing card; R=card+OCT3 tab; centroid-below-pivot θ=136.94° derived; hard shadow; open ring; non-emissive yellow; uncropped |
-| 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
+| 09 | Lit Only by the Interface | PHOTO | CANDIDATE (gallery) | hero plate generated (Higgsfield abe9f57b, 2K); egress blocks local inclusion; Raymond review |
 | 10 | Everything, Drawn Once | CONSTRUCTIBLE | PASS (v1) | dense token inventory flat-lay; all component variants; wildcard tile dead centre; warm paper |
 | 11 | One Screen, Three Distances | CONSTRUCTIBLE | PASS (recovered) | REBUILT on RECOVERED canonical Dashboard pixels (p6 @600dpi); 3 magnifications of one identical render |
 | 12 | Standing Too Close | CONSTRUCTIBLE | PASS (v1) | 128 skeletons exact populations; 4 canon records legible; origin screen; veil proof PASS |
@@ -26,7 +26,7 @@ else honest STOP).
 | 14 | The Quiet | MIXED | CANDIDATE | drain proof 0/25/50/75/100 PASS (peace not error); receipt on 4 surfaces; RECONSTRUCTED record; macro-thumb photograph pending Raymond |
 | 15 | Still Here | CONSTRUCTIBLE | PASS (v1) | 3 tracker entries pin-sharp w/ dates+dues; ghost-stream feed; week strip |
 | 16 | Verbs That Behave | CONSTRUCTIBLE | PASS | a–z proof PASS @16/20/24px; six behaviours legible (Lead left-bleed, Care drop-e, Build drafts, Create seeds, Discover 3% ghost, Teach guides); RECOVERED Interests screen |
-| 17 | The Glare Test | PHOTO | PENDING | phone-in-glare photo ×2; STOP risk |
+| 17 | The Glare Test | PHOTO | CANDIDATE (gallery) | env base generated (Higgsfield 25c6cebb, 2K); identical-string UI composite egress-blocked; Raymond review |
 | 18 | What Comes Next | MIXED | CANDIDATE | push-through proof 0/25/50/75/100 PASS; UI→fog standing panes, brightness=proximity, lineage internal, saved≠accepted; Maya figure photographic pending Raymond |
 
 Realistic shape: the CONSTRUCTIBLE spine (03,06,07,08,10,11,12,13,15,16 + vector parts of
