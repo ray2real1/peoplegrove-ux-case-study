@@ -22,7 +22,7 @@ else honest STOP).
 | 10 | Everything, Drawn Once | CONSTRUCTIBLE | PENDING | token inventory flat-lay |
 | 11 | One Screen, Three Distances | CONSTRUCTIBLE | PASS (v1) | dashboard reconstructed from canon; 128·3·2·1 Anton; italic "moving,"; macro resume |
 | 12 | Standing Too Close | CONSTRUCTIBLE | PASS (v1) | 128 skeletons exact populations; 4 canon records legible; origin screen; veil proof PASS |
-| 13 | The Turn | CONSTRUCTIBLE | PENDING | luminance withdrawal 128→24 |
+| 13 | The Turn | CONSTRUCTIBLE | PASS (v1) | same seed as 12; 104 dimmed hue-intact; 24 lit; Nursing legible; filter sheet 128→24 |
 | 14 | The Quiet | CONSTRUCTIBLE+PHOTO | PENDING | save drain 0/25/50/75/100; macro thumb = photo element |
 | 15 | Still Here | CONSTRUCTIBLE | PENDING | ghost stream + 3 tracker entries |
 | 16 | Verbs That Behave | CONSTRUCTIBLE | PENDING | Instrument Serif; PROOF: a–z at 16/20/24px |
