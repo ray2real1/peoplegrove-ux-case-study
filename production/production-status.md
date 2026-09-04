@@ -21,7 +21,7 @@ else honest STOP).
 | 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
 | 10 | Everything, Drawn Once | CONSTRUCTIBLE | PENDING | token inventory flat-lay |
 | 11 | One Screen, Three Distances | CONSTRUCTIBLE | PASS (v1) | dashboard reconstructed from canon; 128·3·2·1 Anton; italic "moving,"; macro resume |
-| 12 | Standing Too Close | CONSTRUCTIBLE | PENDING | 128 skeletons, verified counts; PROOF: veil |
+| 12 | Standing Too Close | CONSTRUCTIBLE | PASS (v1) | 128 skeletons exact populations; 4 canon records legible; origin screen; veil proof PASS |
 | 13 | The Turn | CONSTRUCTIBLE | PENDING | luminance withdrawal 128→24 |
 | 14 | The Quiet | CONSTRUCTIBLE+PHOTO | PENDING | save drain 0/25/50/75/100; macro thumb = photo element |
 | 15 | Still Here | CONSTRUCTIBLE | PENDING | ghost stream + 3 tracker entries |
