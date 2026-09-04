@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+/* BEAT 05 — FIVE ROOMS, ONE WEEK / TEMPORAL GEOGRAPHY.  A factual week-scale axis (engraved ruler)
+   carries the five VERIFIED timestamps at true positions + the VERIFIED eleven-minute micro-marker;
+   above it, five RECOVERED produced territories anchored by drop-lines, widths/overlaps openly
+   AUTHORED, five light temperatures, Friday off-trim. No width represents duration. */
+.page{background:#0e0f12;color:#fff;font-family:'PG Mono',monospace;overflow:hidden}
+.deckbar{position:absolute;left:44px;right:44px;top:22px;display:flex;justify-content:space-between;font:700 12px 'PG Mono';letter-spacing:.22em;color:#6b6f78;z-index:30}
+.foot{position:absolute;left:44px;right:44px;bottom:20px;display:flex;justify-content:space-between;font:700 11px 'PG Mono';letter-spacing:.22em;color:#565a63;z-index:30}
+/* territories */
+.terr{position:absolute;top:110px;height:560px;overflow:hidden;border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.terr img{width:100%;height:100%;object-fit:cover;display:block}
+.terr .ts{position:absolute;left:12px;top:12px;font:700 11px 'PG Mono';letter-spacing:.14em;color:#fff;text-shadow:0 1px 4px #000}
+.terr .cam{position:absolute;left:12px;bottom:12px;font:700 8px 'PG Mono';letter-spacing:.14em;color:#cfd6de;text-shadow:0 1px 4px #000}
+.drop{position:absolute;width:1px;background:linear-gradient(#ffffff88,#ffffff22);top:670px;height:96px}
+/* engraved ruler */
+.ruler{position:absolute;left:60px;right:60px;top:768px;height:60px;border-top:2px solid #3a3e46}
+.tick{position:absolute;top:-1px;width:1px;height:16px;background:#8a909a}
+.tlab{position:absolute;top:22px;transform:translateX(-50%);font:700 10px 'PG Mono';letter-spacing:.1em;color:#aeb4bd;white-space:nowrap}
+.eleven{position:absolute;top:-1px;height:16px;background:#FFCA0B}
+.elab{position:absolute;top:-40px;transform:translateX(-50%);font:700 8px 'PG Mono';letter-spacing:.08em;color:#FFCA0B;white-space:nowrap;text-align:center}
+</style></head><body><div class="page">
+<div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 05 · JOURNEY — FIVE CAMERAS, ONE WEEK</span></div>
+
+<!-- five territories: authored unequal widths; positions loosely above their ticks; Friday off-trim.
+     light temperatures differ per room. -->
+<div class="terr" style="left:44px;width:300px;filter:saturate(.92) hue-rotate(4deg) brightness(.96)">
+  <img src="../sources/canon_plates/p05_x684.jpeg"><div class="ts">MON 08:15</div><div class="cam">ENVIRONMENT · 35MM</div></div>
+<div class="terr" style="left:360px;width:210px;top:150px;height:470px;filter:saturate(1.05) sepia(.12) brightness(1.02)">
+  <img src="../sources/canon_plates/p05_x760.png"><div class="ts">TUE 09:41</div><div class="cam">MACRO · 100MM</div></div>
+<div class="terr" style="left:582px;width:360px;top:96px;height:600px;filter:saturate(.85) hue-rotate(-6deg) brightness(.9)">
+  <img src="../sources/canon_plates/p05_x759.jpeg"><div class="ts">WED 18:20</div><div class="cam">INTERFACE TAKEOVER · 1:1</div></div>
+<div class="terr" style="left:930px;width:250px;top:170px;height:440px;filter:saturate(1.1) sepia(.18) brightness(1.0)">
+  <img src="../sources/canon_plates/p05_x686.jpeg"><div class="ts">THU 07:55</div><div class="cam">PRODUCT MACRO · BLENDER RIG</div></div>
+<div class="terr" style="left:1210px;width:440px;top:120px;height:560px;filter:saturate(.95) hue-rotate(8deg) brightness(.94)">
+  <img src="../sources/canon_plates/p05_x684.jpeg" style="object-position:70% 40%"><div class="ts">FRI 17:30</div><div class="cam">CLOSE PRODUCT SHOT</div></div>
+
+<!-- drop-lines from each territory to its tick -->
+<div class="drop" style="left:113px"></div><div class="drop" style="left:470px"></div>
+<div class="drop" style="left:867px"></div><div class="drop" style="left:1035px"></div><div class="drop" style="left:1470px"></div>
+
+<!-- engraved week-scale ruler (Mon 00:00 → Fri 24:00 = 120h); ticks at true positions -->
+<div class="ruler" id="ruler">
+  <!-- Mon 08:15 = 6.9% -->
+  <div class="tick" style="left:6.9%"></div><div class="tlab" style="left:6.9%">MON · 08:15</div>
+  <!-- eleven-minute marker at Monday: 11min/120h ≈ 0.15% (a hairline) -->
+  <div class="eleven" style="left:6.9%;width:3px"></div><div class="elab" style="left:6.9%">ELEVEN MINUTES ·<br>MEASURE IT</div>
+  <div class="tick" style="left:28.1%"></div><div class="tlab" style="left:28.1%">TUE · 09:41</div>
+  <div class="tick" style="left:55.3%"></div><div class="tlab" style="left:55.3%">WED · 18:20</div>
+  <div class="tick" style="left:66.6%"></div><div class="tlab" style="left:66.6%">THU · 07:55</div>
+  <div class="tick" style="left:94.6%"></div><div class="tlab" style="left:94.6%">FRI · 17:30</div>
+</div>
+
+<div class="foot"><span>EVERY TIMESTAMP IS A STATE THE BUILD IS ACTUALLY IN · MONDAY'S SESSION LASTED ELEVEN MINUTES</span><span>AXIS VERIFIED · TERRITORY WIDTHS AUTHORED — NO WIDTH IS A DURATION</span></div>
+</div></body></html>

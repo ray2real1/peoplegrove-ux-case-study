@@ -14,7 +14,7 @@ else honest STOP).
 | 02 | Friday's Archaeology | PHOTO | PENDING | hand lifting flyers; STOP risk |
 | 03 | The Honest Pairs | CONSTRUCTIBLE | PASS (v1) | 4 pinned source→result pairs from canon p3 (theme CSS, platform, placement model, contrast repairs); qualifier verbatim; A16 blocker resolved |
 | 04 | Where You Left Off | PHOTO | PENDING | locker hall + resume card; STOP risk |
-| 05 | Five Rooms, One Week | CONSTRUCTIBLE+PHOTO | PENDING | ruler VERIFIED; 5 territory plates from V2 storyboard rasters |
+| 05 | Five Rooms, One Week | MIXED | PASS (v1) | verified week ruler + 5 timestamps + eleven-min marker; 5 RECOVERED V2 territories, authored widths, 5 light temps; Friday off-trim |
 | 06 | One Unbroken Strip | CONSTRUCTIBLE | PASS | 6 RECOVERED screens as continuous ribbon; Nursing card crosses every seam; ring→seal at Save seam; path baseline; Interests fold |
 | 07 | The Almost-Aligned Angle | MIXED | CANDIDATE | CSS-3D 5 white zones at verified geometry, −32 overhang, 5°-off camera; dual-read proof saved; hand (photographic) pending Raymond |
 | 08 | Hanging by a Date | CONSTRUCTIBLE | PASS (flagship) | RECOVERED Nursing card; R=card+OCT3 tab; centroid-below-pivot θ=136.94° derived; hard shadow; open ring; non-emissive yellow; uncropped |

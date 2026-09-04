@@ -39,3 +39,21 @@ Gamma image. Governance: ≤6 serious attempts, hard-fact gate; honest STOP on f
 
 ## 3D / vector
 Three.js / CSS-3D / SVG / Canvas via the HTML pipeline. No Blender (not required).
+
+## Generation capability — TESTED (2026-09-04)
+- **Higgsfield generate_image: CALLABLE.** 252.9 credits (plus plan), 2 credits/image,
+  nano_banana_pro (Nano Banana / Gemini image). Job abe9f57b (Beat 09 hero) completed.
+- **BLOCKER — results are undownloadable & uninspectable from this sandbox.** The result CDN
+  (`d8j0ntlcm91z4.cloudfront.net`) is egress-blocked by org policy (403 CONNECT, same class as
+  figma.com). Consequence: a generated plate renders in the Higgsfield widget (visible to Raymond)
+  but CANNOT be fetched locally, so I cannot (a) run the hard-fact audit myself, (b) composite
+  verified UI onto it (§22), or (c) include it in the local landscape PDF (§45).
+- **Therefore:** pure-generation photographic beats (01, 02, 04, 09, 17) → generate base plate to
+  the widget as CANDIDATE (Raymond judges perceptually + downloads if he wants), but no local
+  compositing/PDF inclusion. Beats with a local RECOVERED V2 plate (05 storyboard, 14 save macro,
+  18 closing) are built locally from those plates instead.
+
+## Local recovered produced-plates (from V2 PDF, downloadable) — usable in the PDF
+sources/canon_plates/: p01(2560×1440), p04(5002×2815), p05 storyboard frames(2848×1600 ×2,
+2560×1440), p11 device(2560×1440), p12(5000×2813), p13(5000×2813), p14 save macro(4398×2775,
+2848×1600), p15(2560×1440), p18(2560×1440).
