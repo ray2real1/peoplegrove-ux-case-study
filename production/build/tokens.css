@@ -1,0 +1,19 @@
+:root{
+ --navy:#00253E; --pgblue:#2A87F7; --teal:#20737B; --green:#24C86F;
+ --neon:#71FF4E; --yellow:#FFCA0B; --coral:#E87861; --gray:#474747;
+ --inkmute:#567086; --fog:#EAF0F3; --white:#FFFFFF;
+ /* category identity */
+ --cat-clinical:#20737B; --cat-eng:#2A87F7; --cat-design:#E87861;
+ --cat-business:#00253E; --cat-research:#24C86F; --cat-edu:#FFCA0B;
+ /* measurements (px, from construction sheet) */
+ --gutter:20px; --base:4px; --card-radius:20px; --sheet-radius:30px;
+ --terms-pad:9px; --hairline:1px; --cat-rule:3px; --tracker-key:4px;
+ --edge-tab:22px; --cta-h:54px; --scroll-clear:104px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1600px;height:900px}
+.page{width:1600px;height:900px;overflow:hidden;position:relative;background:var(--white)}
+.mono{font-family:'PG Mono',monospace;letter-spacing:.12em;text-transform:uppercase}
+.display{font-family:'PG Display',sans-serif}
+.serif-i{font-family:'PG Serif Italic',serif;font-style:italic}
+@page{size:1600px 900px;margin:0}

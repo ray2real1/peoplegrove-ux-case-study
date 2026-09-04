@@ -1,0 +1,83 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+/* BEAT 16 — VERBS THAT BEHAVE. Ink on white; the RECOVERED Interests screen is the only chroma.
+   Six verbs in Instrument Serif italic, each performing a behaviour. a-z mark proof: see
+   proof/beat16_az_proof_16-20-24.png (PASS). */
+.page{background:#ffffff;color:#0b2130;font-family:'PG Mono',monospace}
+.deckbar{position:absolute;left:44px;right:44px;top:26px;display:flex;justify-content:space-between;font:700 12px 'PG Mono';letter-spacing:.22em;color:#9aa7b1;z-index:9}
+.foot{position:absolute;left:44px;right:44px;bottom:24px;display:flex;justify-content:space-between;font:700 11px 'PG Mono';letter-spacing:.22em;color:#a9b4bd;z-index:9}
+.verb{position:absolute;font-family:'PG Serif Italic';font-style:italic;color:#0b2130;line-height:.9}
+.cnt{font-family:'PG Mono';font-style:normal;font-size:12px;letter-spacing:.14em;color:#8a97a1;margin-top:8px}
+.lbl{font-family:'PG Mono';font-style:normal;font-size:9px;letter-spacing:.2em;color:#c2ccd3;margin-bottom:4px}
+
+/* Lead — breaks the LEFT bleed, first letter cropped off-page; guides begin at its stem */
+#lead{left:-48px;top:120px;font-size:132px}
+#lead .guide{position:absolute;left:3.1em;top:.30em;height:2px;width:520px;background:linear-gradient(90deg,#0b2130,rgba(11,33,48,0));opacity:.25}
+
+/* Care — terminal e drops below baseline; r extends its leg to hold it */
+#care{left:90px;top:330px;font-size:112px}
+#care .r{display:inline-block;position:relative}
+#care .r::after{content:"";position:absolute;left:.06em;top:.60em;width:.66em;height:.08em;background:#0b2130;border-radius:2px}
+#care .e{display:inline-block;transform:translateY(.34em)}
+
+/* Build — finished word standing on three progressively rougher settings of itself */
+#build{left:90px;top:560px;font-size:96px}
+#build .stack{position:relative;display:inline-block}
+#build .g{position:absolute;left:0;top:0;white-space:nowrap}
+#build .g1{color:#c9d2d8;transform:translate(6px,11px) skewX(-3deg);filter:blur(.5px)}
+#build .g2{color:#dde4e8;transform:translate(11px,22px) skewX(-6deg);filter:blur(1.1px)}
+#build .g3{color:#eef2f4;transform:translate(15px,33px) skewX(-9deg);filter:blur(1.9px)}
+#build .top{position:relative}
+
+/* Create — counters inhabited: tiny new forms grow inside the letters' enclosed spaces */
+#create{left:470px;top:150px;font-size:104px}
+#create .seed{font-family:'PG Serif Italic';font-size:17px;position:absolute;color:#24C86F}
+
+/* Discover — full ink inside a field of the same glyph latent at 3% */
+#discover{left:470px;top:420px;font-size:88px}
+#discover .ghost{position:absolute;left:-6px;top:-38px;font-size:88px;color:rgba(11,33,48,.035);white-space:nowrap;line-height:1.05;z-index:-1}
+
+/* Teach — wearing its own construction: baseline, x-height and stroke ticks exposed */
+#teach{left:860px;top:150px;font-size:100px}
+#teach .base{position:absolute;left:-10px;right:-10px;bottom:.05em;height:1.5px;background:#2A87F7;opacity:.55}
+#teach .xh{position:absolute;left:-10px;right:-10px;top:.36em;height:1px;background:#2A87F7;opacity:.32}
+#teach .tick{position:absolute;bottom:.05em;width:1px;height:.62em;background:#2A87F7;opacity:.4}
+
+/* a–z — the unwritten word holding all its letters */
+#az{position:absolute;left:90px;top:788px;width:820px}
+#az .alpha{font-family:'PG Serif Italic';font-style:italic;font-size:42px;letter-spacing:.05em;color:#0b2130}
+#az .line{font-family:'PG Serif Italic';font-style:italic;font-size:19px;color:#5b6b78;margin-top:8px}
+
+/* RECOVERED Interests screen bottom-right — the page's only colour */
+#screen{position:absolute;right:56px;bottom:56px;width:280px;border-radius:26px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(11,33,48,.24);z-index:5}
+#screen img{width:280px;display:block}
+#screen .cap{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(transparent,rgba(0,20,30,.7));
+  color:#cfe0ff;font:700 8px 'PG Mono';letter-spacing:.12em;padding:22px 12px 8px}
+</style></head><body><div class="page">
+<div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 16 · VERBS THAT BEHAVE</span></div>
+
+<div class="verb" id="lead"><div class="guide"></div><span class="lbl" style="margin-left:3.1em">BUSINESS</span><br>Lead<div class="cnt" style="margin-left:2.4em">27 ROLES</div></div>
+
+<div class="verb" id="care"><span class="lbl">CLINICAL &amp; CARE</span><br>Ca<span class="r">r</span><span class="e">e</span><div class="cnt">31 ROLES</div></div>
+
+<div class="verb" id="build"><span class="lbl">ENGINEERING</span><br>
+  <span class="stack"><span class="g g3">Build</span><span class="g g2">Build</span><span class="g g1">Build</span><span class="top">Build</span></span>
+  <div class="cnt">24 ROLES</div></div>
+
+<div class="verb" id="create"><span class="lbl">DESIGN &amp; MEDIA</span><br><span style="position:relative;display:inline-block">Create<span class="seed" style="left:.34em;top:.40em">a</span><span class="seed" style="left:2.70em;top:.38em">e</span><span class="seed" style="left:4.02em;top:.42em">o</span></span><div class="cnt">18 ROLES</div></div>
+
+<div class="verb" id="discover"><span class="ghost">Discover Discover<br>Discover Discover</span><span class="lbl">RESEARCH</span><br>Discover<div class="cnt">12 ROLES</div></div>
+
+<div class="verb" id="teach"><span class="lbl">EDUCATION</span><br><span style="position:relative;display:inline-block">Teach<span class="base"></span><span class="xh"></span><span class="tick" style="left:0"></span><span class="tick" style="left:1.4em"></span><span class="tick" style="left:2.6em"></span><span class="tick" style="right:.05em"></span></span><div class="cnt">16 ROLES</div></div>
+
+<div id="az">
+  <div class="alpha">abcdefghijklmnopqrstuvwxyz</div>
+  <div class="line">Still exploring? Let the feed surprise you for a week.</div>
+</div>
+
+<div id="screen"><img src="../sources/screens_canon/interests.png"><div class="cap">THE TRUE INTERESTS SCREEN — a–z MARK PROOF PASS @16/20/24px</div></div>
+
+<div class="foot"><span>THE VERB IS THE ONLY WORD STILL ALLOWED TO BE SET IN ITALIC</span><span>SIX BEHAVIOURS · ONE FACE · INSTRUMENT SERIF · RECOVERED SCREEN</span></div>
+</div></body></html>

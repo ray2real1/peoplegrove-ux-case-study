@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""BEAT 14 — THE QUIET. Saturation drains from the world (screen chrome + room) while the RECOVERED
+saved record holds full colour; light stays. Dated receipt sets hard: SAVED TO TRACKER — Tue · 9:41 AM.
+Render proof: 0/25/50/75/100 (the 50% frame is the hero still). Drain must read as peace, not error.
+The macro thumb is a photographic element (recovered p14 plate / Raymond) — this page proves the
+machine-verifiable drain and the receipt on its four documented surfaces."""
+import pathlib
+
+def frame(drain, big=False):
+    # drain 0..1 : world saturation goes 1 -> 0, light (brightness) stays ~1
+    sat=1-drain
+    warm = f"saturate({sat}) brightness({1.0+0.04*drain})"
+    size = 300 if big else 118
+    scale = size/300
+    return f'''<div class="fr {'hero' if big else ''}">
+      <div class="world" style="filter:{warm}"></div>
+      <div class="rec">
+        <div class="rhead">
+          <div class="ah">AH</div>
+          <div><div class="org">ASPEN HEALTH · VERIFIED</div><div class="rt">Nursing Clinical Rotation</div></div>
+          <div class="seal">✓</div>
+        </div>
+        <div class="stamp">SAVED TO TRACKER · Tue · 9:41 AM</div>
+        <div class="terms"><span>RUNS</span><b>12 weeks · Jan 12</b><span>WEEKLY</span><b>16–20 hrs</b><span>CLOSES</span><b>Oct 3</b></div>
+      </div>
+      {'' if big else f'<div class="pct">{int(drain*100)}%</div>'}
+    </div>'''
+
+hero=frame(0.5, big=True)
+strip="".join(frame(d) for d in [0,0.25,0.5,0.75,1.0])
+html=f'''<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+.page{{background:#eef0f0;color:#0b2130;font-family:'PG Mono',monospace}}
+.deckbar{{position:absolute;left:44px;right:44px;top:24px;display:flex;justify-content:space-between;font:700 12px 'PG Mono';letter-spacing:.22em;color:#9aa3a6;z-index:9}}
+.foot{{position:absolute;left:44px;right:44px;bottom:22px;display:flex;justify-content:space-between;font:700 11px 'PG Mono';letter-spacing:.22em;color:#a7afb1;z-index:9}}
+.fr{{position:relative;overflow:hidden;border-radius:14px}}
+.fr .world{{position:absolute;inset:0;background:
+   radial-gradient(120% 90% at 30% 20%, #ffd9a8, #f2b06a 40%, #c98a52 75%, #7a5a3a 100%);}}
+.fr .rec{{position:absolute;left:8%;right:8%;top:16%;background:#0f4b52;border-radius:12px;
+   padding:5.5% 6%;color:#fff;box-shadow:0 12px 30px rgba(0,0,0,.35)}}
+.hero .rec{{top:14%;padding:26px 28px}}
+.rhead{{display:flex;align-items:center;gap:3%}}
+.ah{{width:12%;aspect-ratio:1;min-width:22px;border-radius:50%;border:2px solid #71c9b0;display:flex;align-items:center;justify-content:center;font-weight:800;color:#9fe0cf;font-size:60%}}
+.hero .ah{{width:44px;height:44px;font-size:14px}}
+.org{{font:700 40% 'PG Mono';letter-spacing:.08em;color:#8fd3d6}}
+.hero .org{{font-size:10px}}
+.rt{{font-weight:800;font-size:80%;line-height:1.05}}
+.hero .rt{{font-size:26px}}
+.seal{{margin-left:auto;width:11%;aspect-ratio:1;min-width:20px;border-radius:50%;background:#24C86F;color:#00253E;display:flex;align-items:center;justify-content:center;font-size:60%}}
+.hero .seal{{width:40px;height:40px;font-size:18px}}
+.stamp{{margin-top:5%;font:700 42% 'PG Mono';letter-spacing:.04em;color:#71c9b0;border-left:3px solid #20737B;padding-left:3%}}
+.hero .stamp{{font-size:13px;margin-top:16px}}
+.terms{{margin-top:6%;display:grid;grid-template-columns:auto 1fr;gap:2% 6%;font-size:42%}}
+.hero .terms{{font-size:12px;gap:8px 18px;margin-top:18px}}
+.terms span{{color:#8fb0c4;letter-spacing:.1em}}.terms b{{text-align:right}}
+.pct{{position:absolute;left:8px;bottom:6px;font:800 11px 'PG Mono';color:#fff;text-shadow:0 1px 3px #000}}
+/* layout */
+.hero{{position:absolute;left:70px;top:120px;width:560px;height:600px}}
+.right{{position:absolute;right:70px;top:150px;width:820px}}
+.right h2{{font-family:'PG Display';font-size:44px;line-height:.98;color:#0b2130}}
+.right p{{font:600 12px/1.7 'PG Mono';color:#5b6b78;margin-top:16px;max-width:640px}}
+.receipt{{margin-top:26px;display:inline-block;background:#0f4b52;color:#71c9b0;font:800 13px 'PG Mono';letter-spacing:.06em;border-left:4px solid #20737B;padding:12px 18px;border-radius:4px}}
+.surfaces{{margin-top:24px}}
+.surfaces .h{{font:700 10px 'PG Mono';letter-spacing:.16em;color:#9aa3a6;margin-bottom:10px}}
+.srow{{display:flex;gap:12px}}
+.surf{{flex:1;background:#fff;border:1px solid #dfe4e6;border-radius:10px;padding:10px 12px;box-shadow:0 6px 14px rgba(0,0,0,.06)}}
+.surf .n{{font:700 8px 'PG Mono';letter-spacing:.1em;color:#9aa3a6}}
+.surf .m{{font:800 10px 'PG Mono';color:#20737B;margin-top:6px}}
+.proof{{position:absolute;right:70px;bottom:110px;width:820px}}
+.proof .h{{font:700 10px 'PG Mono';letter-spacing:.16em;color:#9aa3a6;margin-bottom:10px}}
+.strip{{display:flex;gap:12px}}
+.strip .fr{{width:118px;height:150px}}
+</style></head><body><div class="page">
+<div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 14 · THE QUIET</span></div>
+{hero}
+<div class="right">
+  <h2>The quiet<br>of one press.</h2>
+  <p>Saturation leaves while the light stays — the world pales to mist as the record holds full colour. No modal, no toast: a save is a dated record, the same object every time, on its four documented surfaces.</p>
+  <div class="receipt">SAVED TO TRACKER — Tue · 9:41 AM</div>
+  <div class="surfaces"><div class="h">THE IDENTICAL MARK · FOUR DOCUMENTED SURFACES</div>
+    <div class="srow">
+      <div class="surf"><div class="n">DETAIL HEADER</div><div class="m">SAVED · Tue 9:41 AM</div></div>
+      <div class="surf"><div class="n">CARD EDGE</div><div class="m">SAVED · Tue 9:41 AM</div></div>
+      <div class="surf"><div class="n">RESUME CARD</div><div class="m">SAVED · Tue 9:41 AM</div></div>
+      <div class="surf"><div class="n">TRACKER ENTRY</div><div class="m">SAVED · Tue 9:41 AM</div></div>
+    </div></div>
+</div>
+<div class="proof"><div class="h">RENDER PROOF · SATURATION DRAIN · 0 / 25 / 50 / 75 / 100 — PEACE, NOT ERROR</div>
+  <div class="strip">{strip}</div></div>
+<div class="foot"><span>THE RECORD HOLDS FULL COLOUR — EVERYTHING ELSE PALES TO MIST</span><span>MACRO THUMB (PHOTOGRAPHIC) → RECOVERED p14 PLATE · RAYMOND REVIEW</span></div>
+</div></body></html>'''
+pathlib.Path("beats/beat14.html").write_text(html); print("wrote beat14")

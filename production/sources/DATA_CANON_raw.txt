@@ -1,0 +1,1192 @@
+
+========== CANON V2 PAGE 1 ==========
+peoplegrove
+V 2 · M O B I L E R E D E S I G N
+7 S C R E E N S · 1 D E S I G N S Y S T E M · F U L L L I F E C Y C L E
+LIFE
+INTERRUPTS.
+THE PRODUCT
+REMEMBERS.
+The student opportunity platform, rebuilt around
+the part that actually breaks: what happens
+between the moment you find something and the
+day you finally act on it.
+Raymond Merrill II
+U X R E S E A R C H E R · P R O D U C T D E S I G N E R · I N T E R A C T I O N D E S I G N E R
+Independent WGU Applied Learning capstone redesign.
+Not commissioned, endorsed, or shipped by PeopleGrove.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+T H E P A T H , A T D E C K L E V E L
+
+
+========== CANON V2 PAGE 2 ==========
+C A T E G O R Y U N K N O W N
+Aspen Health · Denver, CO
+RUNS
+WEEKLY
+APPLICATIONS CLOSE
+SAVED
+Nursing Clinical Rotation
+T H E P R O D U C T P R O B L E M
+Found it Monday.
+Lost it by Friday.
+The record survives. Everything attached to it does not.
+Between one session and the next, the four things she needed
+in order to decide come loose from the thing they belonged to
+— and what is left is a title she can no longer act on.
+The redesign attaches them permanently: identity in the seal, terms in
+one structure, the deadline on the card’s own edge, the commitment
+dated at the moment it is made.
+12 weeks, starting
+Jan 12
+CLOSES OCT 3
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+PROBLEM FRAMING FROM THE V2 BRIEF + PRODUCT-DOMAIN ANALYSIS — ORIGINAL-APP CAPTURES PENDING SOURCE MATERIAL.
+USABILITY SIGNAL: N=3 · PROXY PARTICIPANTS · LOW-FI PROTOTYPE · INDICATIVE FINDINGS
+WHO IT IS
+Organization identity never
+travelled with the record.
+WHAT IT COSTS HER
+Duration, hours and pay lived in
+four separate places.
+WHEN IT CLOSES
+The deadline was a chip among
+chips, not an edge.
+THAT SHE COMMITTED
+A save with no date is
+indistinguishable from a maybe.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+T H E L I F E C Y C L E — A N D W H E R E I T B R E A K S
+
+
+========== CANON V2 PAGE 3 ==========
+01
+Read from the live production theme
+PEOPLEGROVE.COM · AUG 2026
+--color-dark-blue
+#00253E
+--color-blue
+#2A87F7
+--color-teal
+#20737B
+--color-green
+#24C86F
+--color-green-neon
+#71FF4E
+--color-yellow
+#FFCA0B
+--color-red
+#E87861
+--color-text-gray
+#474747
+02
+Read from the public platform
+PEOPLEGROVE.COM · AUG 2026
+750+
+programs supported
+20M+
+users
+500+
+institutional partners
+03
+Derived from the placement model
+CORE / EXPERIENTIAL PRODUCT MODEL
+· duration
+· start date
+· weekly hours
+· pay
+· spots
+· closing date
+· location
+· verification
+Eight real fields. Every one of them appears in the terms structure; nothing decorative was added to fill the space.
+04
+Measured inside this project
+QA/CONTRAST.PY · REPRODUCIBLE
+slate on white 1.90:1 →inkmute 5.18:1
+pgblue on fog 3.26:1 →link 4.67:1
+adaGreen on white 3.01:1 →datagreen 5.39:1
+coral on white 2.88:1 →ember 5.68:1
+white on pgblue 3.56:1 →#1E6FD9 4.85:1
+neon on teal 4.24:1 →92% white 4.96:1
+H U M A N C O N T E X T — D E S I G N I N P U T S
+What we could verify, we
+used.
+What we couldn’t, we didn’t
+invent.
+PROVENANCE — Primary interview artifacts from the original
+capstone were not available to this pass; the four blocks
+on this page are the verifiable inputs used. No interviews,
+personas, quotes, or metrics were fabricated for this
+document.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+L E G I T I M A T E E V I D E N C E O N L Y
+
+
+========== CANON V2 PAGE 4 ==========
+T H E S C E N A R I O
+APPLICATIONS
+HAPPEN
+BETWEEN
+SHIFTS.
+Monday, 08:15. End of a twelve-hour night shift. She has
+eleven minutes in the staff break room before she drives
+home to sleep. This is the entire session — and the next one
+will not be until Wednesday evening.
+N E E D S
+Placements that satisfy accreditation — right hours, right units, verified
+sites.
+J U G G L E S
+Clinicals, coursework, a part-time job. Sessions are short, mobile and
+interrupted.
+D E C I D E S B Y
+Deadline pressure and fit evidence: spots left, weekly hours, pay, distance.
+F E A R S
+A closing date missed, a document unsent, a saved role buried under new
+matches.
+P R O D U C E D S C E N A R I O P H O T O G R A P H · A R T -
+D I R E C T E D F O R T H I S P R O J E C T
+C A S T F R O M T H E P R O D U C T ’ S O W N F I E L D S —
+R O T A T I O N S , H O U R S , D E A D L I N E S
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+O N E P R I N C I P A L U S E R , B Y D E S I G N
+
+
+========== CANON V2 PAGE 5 ==========
+MON 08:15
+ENVIRONMENT · 35MM
+“Anything new this week?”
+24 matches, ranked around her interests
+TUE 09:41
+MACRO · 100MM
+“Don’t let me forget this.”
+Saved to tracker · Tue 9:41 AM — dated at the moment of commitment
+WED 18:20
+INTERFACE TAKEOVER · 1:1
+“Only what fits 16–20 hrs.”
+128 → 24 without the field disappearing
+24
+roles match
+your focus
+C A T E G O R Y
+Clinical & Care
+Engineering
+Design & Media
+Business
+Research
+Education
+THU 07:55
+PRODUCT MACRO ·
+BLENDER RIG
+“What do I owe today?”
+Upload immunization records — due Thu
+FRI 17:30
+“Am I actually moving?”
+CLOSE PRODUCT SHOT — 3 SAVED · 2 APPLIED · 1 IN REVIEW
+O N E W E E K , F I V E S E S S I O N S
+The journey, shot like a storyboard.
+Every timestamp on this page is a state the build is actually in.
+F I V E S E S S I O N S · F I V E C A M E R A S · N O R E P E A T E D F R A M E
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+J O U R N E Y — F I V E C A M E R A S , O N E W E E K
+
+
+========== CANON V2 PAGE 6 ==========
+B E G I N · R E T U R N
+Dashboard
+I N P R O G R E S S
+Pick up where you left off
+AH
+A S P E N H E A L T H
+Nursing Clinical Rotation
+SAVED Tue · 9:41 AM
+Upload immunization records
+DUE THU
+M A T C H E D T O D A Y
+Fresh for you
+See all
+9:41
+peoplegrove
+M
+T U E S D A Y · W E E K 6
+Keepmoving,
+Maya.
+24 new matches since Sunday · 3 need you this week
+Robotics Engineering Co-op
+H li
+R b ti
+A
+ti
+TX
+HR
+Co-op
+4 SPOTS
+E N G I N E E R I N G
+Y O U R P A T H
+6 you’re carrying
+128
+IN VIEW
+3
+SAVED
+2
+APPLIED
+1
+IN REVIEW
+HOME
+D I S C O V E R
+Search
+128
+opportunities
+open near you
+UPDATED 9:41 AM
+9:41
+peoplegrove
+Find what’s
+next.
+Role, keyword, organization…
+All
+Clinical & Care
+Engineering
+Desig
+Best match
+Newest
+Closing soon
+Nursing Clinical Rotation
+Aspen Health · Denver, CO
+16–20 hrs / week
+12 weeks · starts Jan 12
+AH
+Clinical placement
+12 SPOTS
+C L I N I C A L & C A R E
+BUSINESS
+FELLOWSHIP
+Community Banking
+Fellowship
+Copperline Bank · Chicago, IL
+CB
+CLOSES OCT 3
+DISCOVER
+N A R R O W
+Filter
+N A R R O W T H E F I E L D
+24
+roles match
+your focus
+Reset
+C A T E G O R Y
+Clinical & Care
+Engineering
+Design & Media
+Business
+Research
+Education
+T Y P E
+Clinical placement
+Internship
+Co-op
+Fellowship
+Mentorship
+W E E K L Y C O M M I T M E N T
+< 10 hrs
+10–20 hrs
+20 + hrs
+D I S T A N C E
+within 25 mi
+On campus
+Anywhere
+128 → 24
+Show 24 roles
+E V A L U A T E
+Detail
+T H E R O L E
+Three units. One capstone.
+A supervised rotation through three units at Aspen's
+teaching hospital, built for BSN students in their final
+two semesters.
+AH
+About Aspen Health
+Teaching hospital network · 4 rotations host…
+More
+Shadow RN-led care teams across med-surg,
+pediatrics and community health
+Log competencies directly against your
+9:41
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+Save to tracker
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+C O M M I T
+Save
+NEXT ACTION
+Upload immunization records
+THU
+T H E R O L E
+Three units. One capstone.
+A supervised rotation through three units at Aspen's
+teaching hospital, built for BSN students in their final
+two semesters.
+AH
+About Aspen Health
+Teaching hospital network · 4 rotations host…
+More
+9:41
+S A V E D
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+Mark as applied
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+C O N T I N U E
+Tracker
+9:41
+peoplegrove
+SINCE SEP 8
+Y O U R R E C O R D
+Everything
+you kept.
+3
+SAVED
+2
+APPLIED
+1
+IN REVIEW
+S A V E D
+3
+AH
+Nursing Clinical Rotation
+Aspen Health · Denver, CO
+Upload immunization records
+DUE THU
+SAVED Tue · 9:41 AM
+FM
+UX Design Apprenticeship
+Fieldnote Media · Remote
+Add two frames to portfolio
+DUE SAT
+SAVED Mon · 8:15 AM
+NU
+Student Success Mentor
+Northgate University · On campus
+Read mentor handbook
+SAVED Sun · 6:52 PM
+3 N E E D Y O U T H I S W E E K
+Interview prep with career office
+FRI
+Upload immunization records
+THU
+Add two frames to portfolio
+SAT
+TRACKER
+IN VIEW · 128
+EVALUATING
+SAVED · 3
+APPLIED · 2 · IN
+REVIEW · 1
+INTERESTS — BRANCH
+9:41
+peoplegrove
+2 SELECTED
+What pulls you?
+Pick the fields that shape your feed. Your path re-
+forms around them.
+Care
+Clinical & Care
+31 ROLES
+Build
+Engineering
+24 ROLES
+I N F O R M A T I O N A R C H I T E C T U R E
+Seven states, one primary path.
+Dashboard → Search → Filter → Detail → Save → Tracker. Interests branches in to
+reshape the feed. Nothing in the product moves backwards, and nothing dead-ends.
+THE PATH — TRAVELLED
+NOT YET REACHED
+PERSONALIZATION BRANCH
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+T H E O N L Y D I A G R A M I N T H I S D O C U M E N T
+
+
+========== CANON V2 PAGE 7 ==========
+CATEGORY HERO FIELD
+TERMS — 5 ROWS
+NEXT ACTION
+ROLE NARRATIVE
+ORG STRIP
+STICKY CTA
+T H E R O L E
+Three units. One capstone.
+A supervised rotation through three units at Aspen's
+teaching hospital, built for BSN students in their final
+two semesters.
+AH
+About Aspen Health
+Teaching hospital network · 4 rotations host…
+More
+Shadow RN-led care teams across med-surg,
+pediatrics and community health
+Log competencies directly against your
+9:41
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+Save to tracker
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+HERO FIELD ENDS ·
+318
+TERMS RISE OVER IT ·
+−32
+STICKY CTA · 790
+20
+20
+S T R U C T U R E B E F O R E S T Y L E
+Wireframes that
+still ship
+information.
+Every screen began as a structural argument: what
+appears first, what persists, what waits. The detail
+screen locked five zones — identity, terms, next
+action, narrative, action — before a single colour was
+chosen.
+M E A S U R E M E N T S S H I P P E D I N T H E B U I L D
+Frame
+390 × 844
+Gutter
+20
+Base unit
+4
+Card radius
+20
+Sheet radius
+30
+Terms row pad
+9
+Hairline
+1
+Category rule
+3
+Tracker keyline
+4
+Edge tab
+22
+CTA height
+54
+Scroll clearance
+104
+RUNS
+12 weeks,
+starting Jan 12
+WEEKLY
+16–20 hrs /
+week
+TERMS STRUCTURE AT 2.1× — 9PX ROW PADDING, 1PX MIST RULE, RIGHT-ALIGNED VALUES
+TERMS RISE OVER THE HERO
+A −32 overlap stitches the colour
+field and the white record into
+one surface.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+C O N S T R U C T I O N S H E E T — O P P O R T U N I T Y D E T A I L
+
+
+========== CANON V2 PAGE 8 ==========
+CLINICAL &
+CARE
+CLINICAL
+PLACEMENT
+Nursing Clinical Rotation
+Aspen Health · Denver, CO
+16–20 hrs / week
+12 weeks · starts Jan 12 · 12 spots
+AH
+CLOSES OCT 3
+SAVED TUE · 9:41 AM
+T H E S I G N A T U R E C O M P O N E N T
+The
+opportunity
+card.
+One object has to carry an entire category of
+decision: who is offering this, what it asks of
+you, when it stops being available, and
+whether you already claimed it.
+I T M U S T C A R R Y
+Organization identity
+Category and type
+Role title
+Location
+Commitment and duration
+Availability
+Deadline
+Save state and its date
+A N D M U S T N O T B E C O M E
+A listing tile. A property card. A course thumbnail.
+A ticker row. Anything whose grammar was
+borrowed from a market that is not this one.
+RING SEAL
+Open ring, keyed at this category's clock
+position. Verified partners carry a second
+ring.
+TITLE, TWO LINES MAX
+Never italic. Role titles are product data, not
+editorial voice.
+ONE TERMS LINE
+Commitment, then duration, start and
+places. Not four KPI tiles.
+SAVE CONTROL
+Ring becomes filled seal: fill + glyph + label
++ date — never colour alone.
+DEADLINE LEAVES THE OUTLINE
+A real closing date grows a tab on the
+card’s own edge. “Rolling” grows nothing.
+THE DATED RECORD
+Saved at 9:41 on Tuesday. The receipt is part
+of the object, not a toast that passed.
+CATEGORY RULE
+3px of the category’s identity colour — the
+only chrome the plate carries.
+S I X C A T E G O R I E S · S I X C L O C K P O S I T I O N S · N E V E R C O L O U R A L O N E
+CA
+Clinical & Care
+0°
+BU
+Engineering
+60°
+CR
+Design & Media
+120°
+LE
+Business
+180°
+DI
+Research
+240°
+TE
+Education
+300°
+V A R I A N T S — O N E A R C H I T E C T U R E , T H R E E D E N S I T I E S
+Plate, field and compact are the same component with different props. Category, save state
+and density are variables; nothing in this system is drawn twice.
+HR
+Co-op
+4 SPOTS
+E N G I N E E R I N G
+EDUCATION
+MENTORSHIP
+Student Success Mentor
+Northgate University · On campus
+NU
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+O P P O R T U N I T Y C A R D — A N A T O M Y , I D E N T I T Y , V A R I A N T S
+
+
+========== CANON V2 PAGE 9 ==========
+N A V Y # 0 0 2 5 3 E — I N S T I T U T I O N A L
+G R O U N D
+white 15.74:1
+I N P R O G R E S S
+Pick up where you left off
+AH
+A S P E N H E A L T H
+Nursing Clinical Rotation
+SAVED Tue · 9:41 AM
+Upload immunization records
+DUE THU
+9:41
+peoplegrove
+M
+T U E S D A Y · W E E K 6
+Keepmoving,
+Maya.
+24 new matches since Sunday · 3 need you this week
+Y O U R P A T H
+6 you’re carrying
+128
+IN VIEW
+3
+SAVED
+2
+APPLIED
+1
+IN REVIEW
+P G B L U E # 2 A 8 7 F 7 — D I S C O V E R Y
+display type only · 3.56:1
+128
+128
+opportunities
+open near you
+UPDATED 9:41 AM
+9:41
+peoplegrove
+Find what’s
+next.
+Role, keyword, organization…
+All
+Clinical & Care
+Engineering
+Desig
+Best match
+Newest
+Closing soon
+Nursing Clinical Rotation
+Aspen Health · Denver, CO
+16–20 hrs / week
+12 weeks · starts Jan 12
+AH
+Clinical placement
+12 SPOTS
+C L I N I C A L & C A R E
+T E A L # 2 0 7 3 7 B — C A R E · T H E
+S A V E D R E C O R D
+white 5.53:1 · stamp 4.96:1
+AH
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+9:41
+S A V E D
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+G R E E N # 2 4 C 8 6 F — F O R W A R D
+A C T I O N
+navy 7.17:1
+Save to tracker
+FORWARD IS
+GREEN.
+Y E L L O W # F F C A 0 B — T H E T I M E
+S I G N A L
+navy 10.27:1
+OCT 3
+CLOSES OCT 3
+Deadlines and pending states only.
+If yellow is on the screen, something
+is running out.
+S A V E D
+3
+AH
+Nursing Clinical Rotation
+Aspen Health · Denver, CO
+Upload immunization records
+DUE THU
+SAVED Tue · 9:41 AM
+FM
+UX Design Apprenticeship
+Fieldnote Media · Remote
+Add two frames to portfolio
+DUE SAT
+SAVED Mon · 8:15 AM
+NU
+Student Success Mentor
+Northgate University · On campus
+3 N E E D Y O U T H I S W E E K
+Interview prep with career office
+FRI
+Upload immunization records
+THU
+Add two frames to portfolio
+SAT
+C O R A L # E 8 7 8 6 1 — D E S I G N &
+M E D I A
+navy 5.46:1
+Create
+Design & Media
+The verb is the only word left in the
+product that is still allowed to be set
+in italic.
+Still exploring?
+Let the feed surprise you for a week.
+Care
+Clinical & Care
+31 ROLES
+Build
+Engineering
+24 ROLES
+Create
+Design & Media
+18 ROLES
+Lead
+Business
+27 ROLES
+Discover
+Research
+12 ROLES
+Teach
+Education
+16 ROLES
+COLOUR IS
+COLOUR IS
+THE INFORMATION.
+THE INFORMATION.
+Six territories, each with exactly one job. A student never has to learn
+the system: the colour of the surface has already told them where they
+are and what happens next.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+T H E L A N G U A G E , W O R K I N G I N T H E P R O D U C T
+
+
+========== CANON V2 PAGE 10 ==========
+0 1 · T H E C O L O U R F I E L D
+Category identity decides the surface.
+Nothing else lives on this layer.
+0 2 · I D E N T I T Y
+The ring seal, keyed to the category, plus
+the verified second ring.
+0 3 · T H E T E R M S
+Five facts in one authored structure — the
+replacement for four KPI tiles.
+0 4 · T H E C O M M I T M E N T
+A dated stamp, and the single next action it
+produced.
+0 5 · T H E A C T I O N
+One control, 54px, always reachable: fill +
+glyph + label.
+T H E D E C I S I O N S U N D E R N E A T H
+radius 20 · 18 · 30 · 999
+space 4 8 12 16 20 24 32
+rule 1 · 3 · 4
+seal 38 · 40 · 44 · 52
+target ≥ 44 · CTA 54
+CB
+Nothing above was drawn. Colour, radius,
+spacing, elevation, state and category
+identity are variables; the seal, the save
+control, the terms row and the stamp are
+components; the screen is an assembly of
+them.
+D E S I G N S Y S T E M
+The screen, taken apart.
+Every pixel above is generated by the decisions on the left.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+T O K E N T O S C R E E N — N O T R A N S L A T I O N L O S S
+
+
+========== CANON V2 PAGE 11 ==========
+T H E D A S H B O A R D , U P C L O S E
+Morning, Maya.
+Here’s what
+moved.
+W H A T T H E P A T H I S R E P O R T I N G
+128 in view, 3 saved, 2 applied, 1 in review. Not a score and not
+a trend — four positions, each with a number she can act on.
+The resume card below it carries the organization’s seal, the
+date she committed, and the one thing due Thursday.
+LIVE V2 INTERFACE, RENDERED AS AN EMISSIVE SURFACE
+ON A PHYSICAL DEVICE
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+
+
+========== CANON V2 PAGE 12 ==========
+D I S C O V E R Y · O N E C A R D A R C H I T E C T U R E · S I X C A T E G O R I E S
+128
+There is a lot here
+worth exploring.
+Abundance is not the problem — arrangement is. One card
+architecture carries every category, so a hundred matches
+read as one calm system instead of a hundred decisions.
+T H E O N E S H E S A V E D
+Out of the hundred behind it, one record carries
+the state that made it hers: a filled seal, a dated
+stamp, and a closing date on its own edge. The
+other ninety-nine are the same object, waiting.
+AH
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+D I S C O V E R Y — A B U N D A N C E W I T H S T R U C T U R E
+
+
+========== CANON V2 PAGE 13 ==========
+128
+A F T E R F O U R F I L T E R M O V E S
+24
+S E A R C H + F I L T E R
+Broad field. Controlled
+focus.
+The count is the interface. Every control move re-prices the result
+set before the sheet closes, and the field behind stays exactly
+where it was — narrowing here never feels like losing.
+N A R R O W T H E F I E L D
+24
+roles match
+your focus
+Reset
+C A T E G O R Y
+Clinical & Care
+Engineering
+Design & Media
+Business
+Research
+Education
+T Y P E
+Clinical placement
+Internship
+Co-op
+Fellowship
+Mentorship
+W E E K L Y C O M M I T M E N T
+< 10 hrs
+10–20 hrs
+20 + hrs
+D I S T A N C E
+within 25 mi
+On campus
+Anywhere
+128 → 24
+Show 24 roles
+D I S T A N C E
+On campus
+DISTANCE CONTROL AT 1.95× — 20PX THUMB, 44PX
+TOUCH TARGET, LIVE VALUE
+P E R S I S T E N T S O R T R O W
+Best match / Newest / Closing soon never leaves the screen.
+S H E E T O V E R D I M M E D C O N T E X T
+The result set behind stays legible at 55% — nothing is
+destroyed.
+C O U N T I N T H E F O O T E R , A L W A Y S
+128 → 24 is printed on the apply bar before you commit to it.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+I N T E R A C T I O N D E T A I L — T H E N A R R O W I N G M O M E N T
+
+
+========== CANON V2 PAGE 14 ==========
+O P P O R T U N I T Y D E T A I L + S A V E
+From
+discovery
+to decision.
+Facts before feelings: how long it runs, what it asks each
+week, what it pays, how many places are left, when it
+closes. Then one action — and the interface seals it, dates
+it, and hands it to the tracker without a modal, a toast, or a
+screen change.
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+This is the receipt of commitment. It appears on the detail screen,
+on the card’s edge, on the resume card and on every tracker
+entry — the same object, every time.
+BEFORE
+AFTER
+T H E R O L E
+Three units. One capstone.
+A supervised rotation through three units at Aspen's
+teaching hospital, built for BSN students in their final
+two semesters.
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+NEXT ACTION
+Upload immunization records
+THU
+T H E R O L E
+Threeunits.Onecapstone.
+AH
+Aspen Health
+Verified partner
+Nursing Clinical
+Rotation
+S A V E D T O T R A C K E R
+Tue · 9:41 AM
+RUNS
+12 weeks, starting Jan 12
+WEEKLY
+16–20 hrs / week
+PAYS
+$28 / hr stipend
+PLACES
+12 spots
+APPLICATIONS CLOSE
+Oct 3
+P R O D U C E D M A C R O P H O T O G R A P H · A R T - D I R E C T E D F O R T H I S P R O J E C T ·
+I N T E R F A C E P R O J E C T E D O N T O T H E R E A L S C R E E N S U R F A C E , N O T
+R E P A I N T E D
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+F E E D B A C K Y O U C A N T R U S T
+
+
+========== CANON V2 PAGE 15 ==========
+T R A C K E R
+3
+S A V E D 2
+A P P L I E D 1
+I N R E V I E W
+3 N E E D Y O U T H I S W E E K
+Interview prep with career office — Fri · Upload immunization
+records — Thu · Add two frames to portfolio — Sat
+The spine is the
+record.
+Saved roles do not sink under new matches. They occupy a station on
+the same path the rest of the product uses, and each keeps the date
+it was claimed and the one thing it is waiting on. Removed in this
+pass: the momentum ring, the “rising” label, and every chart
+semantic.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+C O N T I N U I T Y I S T H E P R O D U C T
+
+
+========== CANON V2 PAGE 16 ==========
+I N T E R E S T S
+Six verbs steer
+the whole feed.
+A category is a filing decision. A verb is a statement about
+yourself. The tiles ask what pulls you, not what department you
+belong to — and the answer visibly re-ranks the feed, with no
+hidden algorithm in between.
+Care
+CLINICAL & CARE
+Build
+ENGINEERING
+Create
+DESIGN & MEDIA
+Lead
+BUSINESS
+Discover
+RESEARCH
+Teach
+EDUCATION
+Selection is never signalled by colour alone: the tile takes the category fill, the audited
+on-colour, a navy border, a green check, and a ring keyed to that category’s own clock
+position.
+Still exploring?
+Let the feed surprise you for a week.
+9:41
+peoplegrove
+2 SELECTED
+What pulls you?
+Pick the fields that shape your feed. Your path re-
+forms around them.
+Care
+Clinical & Care
+31 ROLES
+Build
+Engineering
+24 ROLES
+Create
+Design & Media
+18 ROLES
+Lead
+Business
+27 ROLES
+Discover
+Research
+12 ROLES
+Teach
+Education
+16 ROLES
+Set interests · 2
+T H E W I L D C A R D
+Still exploring?
+Let the feed surprise you for
+a week.
+Personalisation with an exit. A student who does
+not yet know what pulls them is not a cold-start
+problem to be solved silently — it is a state the
+product offers on purpose.
+CA
+BU
+CR
+LE
+DI
+TE
+SIX CATEGORIES · SIX RING POSITIONS · REVERSIBLE AT
+ANY TIME
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+P R E F E R E N C E I N T H E O P E N
+
+
+========== CANON V2 PAGE 17 ==========
+slate #B2BEC5 on white — 1.90:1
+fails AA normal (4.5) by 2.6×
+S A V E D T O T R A C K E R
+12 roles
+✕
+R E P A I R E D I N T H E T O K E N L A Y E R
+slate → inkmute #567086
+Eight failure classes have now
+surfaced across two audits. Every one
+was repaired where the value is
+defined, never patched on the screen
+where it was noticed.
+5.18:1 — AA pass
+S A V E D T O T R A C K E R
+12 roles
+✓
+T O U C H T A R G E T S — M E A S U R E D L I V E
+54px height · ≥ 44 required
+Visible focus ring — 2.5px, offset,
+always on.
+Save to tracker
+S H I P P E D P A I R S — A A N O R M A L ≥ 4 . 5
+white / navy
+15.74:1
+Headlines + body on navy
+navy / fog
+14.44:1
+Headlines on fog
+navy / yellow
+10.27:1
+In-review chip · time band
+body / white
+9.29:1
+Card body copy
+navy / green
+7.17:1
+“Mark as applied” CTA
+ember / white
+5.68:1
+Due-date + closing text
+amberink / white
+5.54:1
+Business category label
+white / teal
+5.53:1
+Detail hero · saved field
+navy / coral
+5.46:1
+Selected design tile
+datagreen / white
+5.39:1
+Research label · saved stamp
+inkmute / white
+5.18:1
+Micro-labels
+link / white
+5.10:1
+Small links · engineering label
+white / #1E6FD9
+4.85:1
+Engineering field header
+link / fog
+4.67:1
+Small links on fog
+R E P A I R L O G — B E F O R E → A F T E R
+Micro-labels on light
+ → inkmute 5.18:1
+Small links
+ → link 4.67:1
+Deadline text
+ → datagreen 5.39:1
+Due-date alerts
+ → ember 5.68:1
+Selected coral tile
+ → navy 5.46:1
+Engineering field header
+ → white on #1E6FD9 4.85:1
+Research field header
+ → white on datagreen 5.39:1
+Saved stamp on teal
+ → 92% white 4.96:1
+Method: relative luminance, WCAG 2.x · translucent text measured after
+bl
+di
+slate 1.90:1
+pgblue 3.26:1
+adaGreen 3.01:1
+coral 2.88:1
+white 2.88:1
+white on pgblue 3.56:1
+white on adaGreen 3.01:1
+neon 4.24:1
+B E Y O N D C O L O U R
+Saved = fill + glyph + label + dated stamp.
+Category = colour + ring position + name.
+Status = station colour + word + position on
+the path. Reduced-motion disables press
+scaling.
+WCAG 2.1 AA-aligned accessibility features
+verified through code inspection and
+targeted interaction checks. No formal
+conformance audit has been performed.
+A C C E S S I B I L I T Y — M E A S U R E D , N O T C L A I M E D
+Rigor changes pixels.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+R A T I O S C O M P U T E D I N Q A / C O N T R A S T . P Y — R E P R O D U C I B L E
+
+
+========== CANON V2 PAGE 18 ==========
+I N T E R E S T S
+D A S H B O A R D
+S E A R C H
+F I L T E R
+D E T A I L
+S A V E
+T R A C K E R
+SEVEN STATES. ONE PATH.
+S C O P E
+7 screens · dashboard, search, filter,
+detail, save, tracker, interests
+S Y S T E M
+Ring seal · The Path · saved stamp ·
+edge tabs · one card, three variants
+E V I D E N C E
+Live brand audit · public platform data ·
+8 measured contrast repairs
+C R A F T
+Live-rendered UI in every frame ·
+Figma-reproducible from tokens
+Raymond Merrill II
+U X R E S E A R C H E R · P R O D U C T D E S I G N E R · I N T E R A C T I O N D E S I G N E R
+Independent WGU Applied Learning capstone redesign.
+Not commissioned, endorsed, or shipped by PeopleGrove.
+P E O P L E G R O V E V 2 — O P P O R T U N I T Y H U B
+A L L S C R E E N S L I V E - R E N D E R E D — N O T H I N G P A S T E D
+

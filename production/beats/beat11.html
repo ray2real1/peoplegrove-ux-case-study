@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+/* BEAT 11 — ONE SCREEN, THREE DISTANCES.  Product layer = RECOVERED canonical Dashboard
+   pixels (600dpi vector raster from canonical V2 PDF p6). Three magnifications of ONE
+   identical render: true device size + massive Path row + macro resume card. Dawn, no motion. */
+.page{background:radial-gradient(120% 90% at 12% 0%, #12395a 0%, #06263e 42%, #021a2e 100%);
+  font-family:'PG Mono',monospace;color:#fff}
+.deckbar{position:absolute;left:44px;right:44px;top:26px;display:flex;justify-content:space-between;
+  font:700 12px 'PG Mono';letter-spacing:.22em;color:#5b7c99;z-index:9}
+.foot{position:absolute;left:44px;right:44px;bottom:24px;display:flex;justify-content:space-between;
+  font:700 11px 'PG Mono';letter-spacing:.22em;color:#3f6482;z-index:9}
+.cap{font:700 12px 'PG Mono';letter-spacing:.22em;color:#6f93b0;margin-bottom:12px}
+/* anchor — true device size */
+.anchor{position:absolute;left:74px;top:150px}
+.anchor img{width:300px;border-radius:30px;display:block;box-shadow:0 40px 90px rgba(0,0,0,.55)}
+/* magnified band viewers (same source image, scaled+clipped) */
+.view{overflow:hidden;border-radius:14px;box-shadow:0 26px 60px rgba(0,0,0,.5)}
+.view img{display:block}
+.hero{position:absolute;right:52px;top:150px;width:1000px}
+.hero .view{width:1000px;height:300px}
+.hero .view img{width:1000px} /* S=1000/1150=0.87; path band shown magnified vs anchor */
+.macro{position:absolute;right:52px;bottom:104px;width:560px}
+.macro .view{width:560px;height:330px}
+.macro .view img{width:560px}
+.carry{font:700 12px 'PG Mono';letter-spacing:.16em;color:#71FF4E;margin-top:10px}
+</style></head>
+<body><div class="page">
+  <div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 11 · ONE RENDER, THREE DISTANCES · RECOVERED UI</span></div>
+
+  <div class="anchor">
+    <div class="cap">TRUE DEVICE SIZE</div>
+    <img src="../sources/screens_canon/dashboard.png" alt="Dashboard">
+  </div>
+
+  <div class="hero">
+    <div class="cap">THE PATH — 128 · 3 · 2 · 1, VERIFIED AGAINST THE ANCHOR</div>
+    <!-- path band ~33–45% of 2430px tall image; img width 1000 (S=0.87) -> band top = .33*2430*.87 = 698px -->
+    <div class="view"><img src="../sources/screens_canon/dashboard.png" style="margin-top:-690px"></div>
+    <div class="carry">6 YOU'RE CARRYING · THE SMALLEST TRUE NUMBER, PERFECTLY CRISP</div>
+  </div>
+
+  <div class="macro">
+    <div class="cap">THE RESUME CARD — SEAL · DATE · DUE THU</div>
+    <!-- resume band ~48–72%; band top = .48*2430*(560/1150)= .48*2430*.487 = 568px -->
+    <div class="view"><img src="../sources/screens_canon/dashboard.png" style="width:560px;margin-top:-560px"></div>
+  </div>
+
+  <div class="foot"><span>KEEP MOVING, MAYA · TUESDAY · WEEK 6 · RECOVERED CANONICAL PIXELS</span><span>STILLNESS IS THE LOCK — THIS BEAT HAS NO MOTION</span></div>
+</div></body></html>
