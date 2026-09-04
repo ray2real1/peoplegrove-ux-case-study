@@ -1,0 +1,115 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+/* BEAT 16 — VERBS THAT BEHAVE. Ink on white; the Interests screen is the only chroma.
+   Six verbs in Instrument Serif italic, each performing a behaviour deeper than its word. */
+.page{background:#ffffff;color:#0b2130;font-family:'PG Mono',monospace}
+.deckbar{position:absolute;left:44px;right:44px;top:26px;display:flex;justify-content:space-between;
+  font:700 12px 'PG Mono';letter-spacing:.22em;color:#9aa7b1;z-index:9}
+.foot{position:absolute;left:44px;right:44px;bottom:24px;display:flex;justify-content:space-between;
+  font:700 11px 'PG Mono';letter-spacing:.22em;color:#a9b4bd;z-index:9}
+.verb{position:absolute;font-family:'PG Serif Italic';font-style:italic;color:#0b2130;line-height:.9}
+.cnt{font-family:'PG Mono';font-style:normal;font-size:12px;letter-spacing:.14em;color:#8a97a1;margin-top:6px}
+.lbl{font-family:'PG Mono';font-style:normal;font-size:9px;letter-spacing:.2em;color:#c2ccd3;margin-bottom:4px}
+
+/* Care — terminal e drops below baseline; r extends its leg to hold it */
+#care{left:70px;top:120px;font-size:118px}
+#care .r{display:inline-block;position:relative}
+#care .r::after{content:"";position:absolute;left:.10em;top:.62em;width:.62em;height:.09em;background:#0b2130;border-radius:2px}
+#care .e{display:inline-block;transform:translateY(.30em)}
+
+/* Build — finished word standing on three progressively rougher settings of itself */
+#build{left:70px;top:360px;font-size:96px}
+#build .stack{position:relative;display:inline-block}
+#build .g{position:absolute;left:0;top:0;white-space:nowrap}
+#build .g1{color:#c9d2d8;transform:translate(6px,10px) skewX(-3deg);filter:blur(.6px)}
+#build .g2{color:#dde4e8;transform:translate(11px,20px) skewX(-6deg);filter:blur(1.1px)}
+#build .g3{color:#eef2f4;transform:translate(15px,30px) skewX(-9deg);filter:blur(1.8px)}
+#build .top{position:relative}
+
+/* Create — counters inhabited: tiny new forms grow in the enclosed spaces */
+#create{left:70px;top:560px;font-size:104px}
+#create .seed{font-family:'PG Serif Italic';font-size:15px;position:absolute;color:#24C86F}
+
+/* Lead — breaks the left bleed, first letter cropped; guides begin at its stem */
+#lead{left:-34px;top:150px;font-size:120px}
+#lead .guide{position:absolute;left:.58em;top:.24em;height:2px;width:560px;background:linear-gradient(90deg,#0b2130,rgba(11,33,48,0));opacity:.28}
+/* place Lead on the right column */
+#leadwrap{position:absolute;right:0;top:150px;width:760px;height:150px;overflow:visible}
+
+/* Discover — full ink inside a field of the same glyph latent at 3% */
+#discover{right:60px;top:330px;font-size:92px;text-align:right}
+#discover .ghost{position:absolute;right:0;top:-40px;font-size:92px;color:rgba(11,33,48,.03);white-space:nowrap;line-height:1.05}
+
+/* Teach — wearing its own construction: baseline, x-height, stroke guides exposed */
+#teach{right:150px;top:560px;font-size:104px}
+#teach .base{position:absolute;left:-10px;right:-10px;bottom:.04em;height:1.5px;background:#2A87F7;opacity:.6}
+#teach .xh{position:absolute;left:-10px;right:-10px;top:.34em;height:1px;background:#2A87F7;opacity:.35}
+#teach .tick{position:absolute;bottom:.04em;width:1px;height:.62em;background:#2A87F7;opacity:.4}
+
+/* a–z — the unwritten word holding all its letters */
+#az{position:absolute;left:70px;top:770px;width:800px}
+#az .alpha{font-family:'PG Serif Italic';font-style:italic;font-size:40px;letter-spacing:.06em;color:#0b2130}
+#az .line{font-family:'PG Serif Italic';font-style:italic;font-size:19px;color:#5b6b78;margin-top:8px}
+
+/* Interests screen bottom-right — the page's only colour */
+#screen{position:absolute;right:46px;bottom:70px;width:300px;background:#00253E;border-radius:26px;
+  box-shadow:0 30px 70px rgba(11,33,48,.22);overflow:hidden;color:#fff;font-family:-apple-system,Arial,sans-serif;z-index:5}
+#screen .sh{padding:15px 18px 0;font:600 12px sans-serif;display:flex;justify-content:space-between}
+#screen h3{font:800 24px sans-serif;letter-spacing:-.02em;margin:16px 18px 0}
+#screen .sub{font-size:11px;color:#9fb4c7;margin:6px 18px 0}
+#screen .tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 16px 0}
+#screen .t{border-radius:12px;padding:10px 11px;border:1.5px solid transparent;position:relative}
+#screen .t .v{font-family:'PG Serif Italic';font-style:italic;font-size:22px;line-height:1}
+#screen .t .c{font:700 8px 'PG Mono';letter-spacing:.1em;margin-top:4px;opacity:.85}
+#screen .t.on{border-color:#fff}
+#screen .wild{margin:12px 16px 16px;border:1.5px dashed #3f6482;border-radius:12px;padding:11px 13px}
+#screen .wild .az{font-family:'PG Serif Italic';font-style:italic;font-size:16px;color:#cfe0ff;letter-spacing:.04em;overflow:hidden;white-space:nowrap}
+#screen .wild .w{font-size:10px;color:#9fb4c7;margin-top:5px}
+</style></head>
+<body><div class="page">
+<div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 16 · VERBS THAT BEHAVE</span></div>
+
+<div class="verb" id="care"><span class="lbl">CLINICAL &amp; CARE</span><br>Ca<span class="r">r</span><span class="e">e</span><div class="cnt">31 ROLES</div></div>
+
+<div class="verb" id="build"><span class="lbl">ENGINEERING</span><br>
+  <span class="stack"><span class="g g3">Build</span><span class="g g2">Build</span><span class="g g1">Build</span><span class="top">Build</span></span>
+  <div class="cnt">24 ROLES</div></div>
+
+<div class="verb" id="create"><span class="lbl">DESIGN &amp; MEDIA</span><br>Create
+  <span class="seed" style="left:.30em;top:.42em">a</span>
+  <span class="seed" style="left:2.62em;top:.40em">e</span>
+  <span class="seed" style="left:3.95em;top:.44em">o</span>
+  <div class="cnt">18 ROLES</div></div>
+
+<div id="leadwrap"><div class="verb" id="lead"><div class="guide"></div>Lead<div class="cnt" style="margin-left:.9em">27 ROLES</div></div></div>
+
+<div class="verb" id="discover"><span class="ghost">Discover Discover<br>Discover Discover</span><span class="lbl" style="display:block;text-align:right">RESEARCH</span>Discover<div class="cnt">12 ROLES</div></div>
+
+<div class="verb" id="teach"><span class="lbl">EDUCATION</span><br><span style="position:relative;display:inline-block">Teach
+  <span class="base"></span><span class="xh"></span>
+  <span class="tick" style="left:0"></span><span class="tick" style="left:1.35em"></span><span class="tick" style="left:2.5em"></span><span class="tick" style="right:.05em"></span>
+  </span><div class="cnt">16 ROLES</div></div>
+
+<div id="az">
+  <div class="alpha">abcdefghijklmnopqrstuvwxyz</div>
+  <div class="line">Still exploring? Let the feed surprise you for a week.</div>
+</div>
+
+<div id="screen">
+  <div class="sh"><span>9:41</span><span>peoplegrove</span></div>
+  <h3>What pulls you?</h3>
+  <div class="sub">Pick the fields that shape your feed.</div>
+  <div class="tiles">
+    <div class="t on" style="background:#20737B"><div class="v">Care</div><div class="c">CLINICAL &amp; CARE · 31</div></div>
+    <div class="t on" style="background:#2A87F7"><div class="v">Build</div><div class="c">ENGINEERING · 24</div></div>
+    <div class="t" style="background:#12324a"><div class="v" style="color:#E87861">Create</div><div class="c">DESIGN &amp; MEDIA · 18</div></div>
+    <div class="t" style="background:#12324a"><div class="v" style="color:#cbd5dd">Lead</div><div class="c">BUSINESS · 27</div></div>
+    <div class="t" style="background:#12324a"><div class="v" style="color:#24C86F">Discover</div><div class="c">RESEARCH · 12</div></div>
+    <div class="t" style="background:#12324a"><div class="v" style="color:#FFCA0B">Teach</div><div class="c">EDUCATION · 16</div></div>
+  </div>
+  <div class="wild"><div class="az">abcdefghijklmnopqrstuvwxyz</div><div class="w">Still exploring? Let the feed surprise you for a week.</div></div>
+</div>
+
+<div class="foot"><span>THE VERB IS THE ONLY WORD STILL ALLOWED TO BE SET IN ITALIC</span><span>SIX BEHAVIOURS · ONE FACE · INSTRUMENT SERIF</span></div>
+</div></body></html>

@@ -25,7 +25,7 @@ else honest STOP).
 | 13 | The Turn | CONSTRUCTIBLE | PASS (v1) | same seed as 12; 104 dimmed hue-intact; 24 lit; Nursing legible; filter sheet 128→24 |
 | 14 | The Quiet | CONSTRUCTIBLE+PHOTO | PENDING | save drain 0/25/50/75/100; macro thumb = photo element |
 | 15 | Still Here | CONSTRUCTIBLE | PENDING | ghost stream + 3 tracker entries |
-| 16 | Verbs That Behave | CONSTRUCTIBLE | PENDING | Instrument Serif; PROOF: a–z at 16/20/24px |
+| 16 | Verbs That Behave | CONSTRUCTIBLE | PROOF PASS · page refining | a–z 16/20/24px PASS; verbs+screen built; refine Teach occlusion, Lead left-bleed, Create seeds |
 | 17 | The Glare Test | PHOTO | PENDING | phone-in-glare photo ×2; STOP risk |
 | 18 | What Comes Next | CONSTRUCTIBLE+PHOTO | PENDING | UI→fog panes; Maya figure = photo element; PROOF: 0/25/50/75/100 |
 
