@@ -25,7 +25,7 @@ else honest STOP).
 | 13 | The Turn | CONSTRUCTIBLE | PASS (v1) | same seed as 12; 104 dimmed hue-intact; 24 lit; Nursing legible; filter sheet 128→24 |
 | 14 | The Quiet | MIXED | CANDIDATE | drain proof 0/25/50/75/100 PASS (peace not error); receipt on 4 surfaces; RECONSTRUCTED record; macro-thumb photograph pending Raymond |
 | 15 | Still Here | CONSTRUCTIBLE | PASS (v1) | 3 tracker entries pin-sharp w/ dates+dues; ghost-stream feed; week strip |
-| 16 | Verbs That Behave | CONSTRUCTIBLE | PROOF PASS · page refining | a–z 16/20/24px PASS; verbs+screen built; refine Teach occlusion, Lead left-bleed, Create seeds |
+| 16 | Verbs That Behave | CONSTRUCTIBLE | PASS | a–z proof PASS @16/20/24px; six behaviours legible (Lead left-bleed, Care drop-e, Build drafts, Create seeds, Discover 3% ghost, Teach guides); RECOVERED Interests screen |
 | 17 | The Glare Test | PHOTO | PENDING | phone-in-glare photo ×2; STOP risk |
 | 18 | What Comes Next | MIXED | CANDIDATE | push-through proof 0/25/50/75/100 PASS; UI→fog standing panes, brightness=proximity, lineage internal, saved≠accepted; Maya figure photographic pending Raymond |
 
