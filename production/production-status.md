@@ -27,7 +27,7 @@ else honest STOP).
 | 15 | Still Here | CONSTRUCTIBLE | PASS (v1) | 3 tracker entries pin-sharp w/ dates+dues; ghost-stream feed; week strip |
 | 16 | Verbs That Behave | CONSTRUCTIBLE | PROOF PASS · page refining | a–z 16/20/24px PASS; verbs+screen built; refine Teach occlusion, Lead left-bleed, Create seeds |
 | 17 | The Glare Test | PHOTO | PENDING | phone-in-glare photo ×2; STOP risk |
-| 18 | What Comes Next | CONSTRUCTIBLE+PHOTO | PENDING | UI→fog panes; Maya figure = photo element; PROOF: 0/25/50/75/100 |
+| 18 | What Comes Next | MIXED | CANDIDATE | push-through proof 0/25/50/75/100 PASS; UI→fog standing panes, brightness=proximity, lineage internal, saved≠accepted; Maya figure photographic pending Raymond |
 
 Realistic shape: the CONSTRUCTIBLE spine (03,06,07,08,10,11,12,13,15,16 + vector parts of
 05,14,18) is buildable to master fidelity here. Pure PHOTO plates (01,02,04,09,17 + human
