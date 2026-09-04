@@ -1,0 +1,35 @@
+# Production Status — 18 beats
+
+Authority ruling applied (Path C): canon = V2 PDF (Maya/Nursing/128); master unchanged;
+italic = Instrument Serif Italic. Collision from the earlier groovetop pass = RESOLVED.
+
+Legend: PENDING · BUILDING · PASS · STOP
+Class: CONSTRUCTIBLE (verified data/screens/type/physics → certain to build faithfully) ·
+PHOTO (authored cinematic plate; PATH-A reuse of an approved V2 plate, else PATH-B generation,
+else honest STOP).
+
+| Beat | Title | Class | Status | Notes |
+|---|---|---|---|---|
+| 01 | The Board and the Table | PHOTO | PENDING | corkboard+Maya blur; V2 p1 plate is a different frame → PATH-B/ STOP risk |
+| 02 | Friday's Archaeology | PHOTO | PENDING | hand lifting flyers; STOP risk |
+| 03 | The Honest Pairs | CONSTRUCTIBLE | PENDING | verified sources + tokens |
+| 04 | Where You Left Off | PHOTO | PENDING | locker hall + resume card; STOP risk |
+| 05 | Five Rooms, One Week | CONSTRUCTIBLE+PHOTO | PENDING | ruler VERIFIED; 5 territory plates from V2 storyboard rasters |
+| 06 | One Unbroken Strip | CONSTRUCTIBLE | PENDING | 7 Maya screens joined; card crossing seams |
+| 07 | The Almost-Aligned Angle | CONSTRUCTIBLE | PENDING | CSS-3D 5 zones, −32 overhang; PROOF: dual-read |
+| 08 | Hanging by a Date | CONSTRUCTIBLE | PENDING | exact card + physical lean; needs tab-position measure |
+| 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
+| 10 | Everything, Drawn Once | CONSTRUCTIBLE | PENDING | token inventory flat-lay |
+| 11 | One Screen, Three Distances | CONSTRUCTIBLE | BUILDING | Maya dashboard ×3 magnifications |
+| 12 | Standing Too Close | CONSTRUCTIBLE | PENDING | 128 skeletons, verified counts; PROOF: veil |
+| 13 | The Turn | CONSTRUCTIBLE | PENDING | luminance withdrawal 128→24 |
+| 14 | The Quiet | CONSTRUCTIBLE+PHOTO | PENDING | save drain 0/25/50/75/100; macro thumb = photo element |
+| 15 | Still Here | CONSTRUCTIBLE | PENDING | ghost stream + 3 tracker entries |
+| 16 | Verbs That Behave | CONSTRUCTIBLE | PENDING | Instrument Serif; PROOF: a–z at 16/20/24px |
+| 17 | The Glare Test | PHOTO | PENDING | phone-in-glare photo ×2; STOP risk |
+| 18 | What Comes Next | CONSTRUCTIBLE+PHOTO | PENDING | UI→fog panes; Maya figure = photo element; PROOF: 0/25/50/75/100 |
+
+Realistic shape: the CONSTRUCTIBLE spine (03,06,07,08,10,11,12,13,15,16 + vector parts of
+05,14,18) is buildable to master fidelity here. Pure PHOTO plates (01,02,04,09,17 + human
+elements of 14,18) depend on generation hitting frozen hard-facts + a consistent "Maya" cast;
+those are PATH-B best-effort or honest STOP per §35 — no placeholders (§36).
