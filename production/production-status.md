@@ -16,7 +16,7 @@ else honest STOP).
 | 04 | Where You Left Off | PHOTO | PENDING | locker hall + resume card; STOP risk |
 | 05 | Five Rooms, One Week | CONSTRUCTIBLE+PHOTO | PENDING | ruler VERIFIED; 5 territory plates from V2 storyboard rasters |
 | 06 | One Unbroken Strip | CONSTRUCTIBLE | PASS | 6 RECOVERED screens as continuous ribbon; Nursing card crosses every seam; ring→seal at Save seam; path baseline; Interests fold |
-| 07 | The Almost-Aligned Angle | CONSTRUCTIBLE | PENDING | CSS-3D 5 zones, −32 overhang; PROOF: dual-read |
+| 07 | The Almost-Aligned Angle | MIXED | CANDIDATE | CSS-3D 5 white zones at verified geometry, −32 overhang, 5°-off camera; dual-read proof saved; hand (photographic) pending Raymond |
 | 08 | Hanging by a Date | CONSTRUCTIBLE | PASS (flagship) | RECOVERED Nursing card; R=card+OCT3 tab; centroid-below-pivot θ=136.94° derived; hard shadow; open ring; non-emissive yellow; uncropped |
 | 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
 | 10 | Everything, Drawn Once | CONSTRUCTIBLE | PASS (v1) | dense token inventory flat-lay; all component variants; wildcard tile dead centre; warm paper |

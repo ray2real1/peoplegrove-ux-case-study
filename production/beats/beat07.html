@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
+<style>
+/* BEAT 07 — THE ALMOST-ALIGNED ANGLE.  Matte white planes = the Detail screen's five locked zones
+   at VERIFIED 2D proportions, standing at AUTHORED physical depth; the −32 terms overhang built as
+   a real overhang; warm studio; camera five degrees off the resolve axis so the frame reads as BOTH
+   an abstract white construction AND, unmistakably, the Detail-screen architecture. No UI pixels in
+   the structure. 2D geometry VERIFIED · depth AUTHORED (never called measured). */
+.page{background:radial-gradient(120% 100% at 62% 18%, #efe6d6 0%, #e7dcc8 46%, #d8cbb2 100%);perspective:2600px;perspective-origin:56% 42%}
+.deckbar{position:absolute;left:44px;right:44px;top:26px;display:flex;justify-content:space-between;font:700 12px 'PG Mono';letter-spacing:.22em;color:#a99a7c;z-index:20}
+.foot{position:absolute;left:44px;right:44px;bottom:24px;display:flex;justify-content:space-between;font:700 11px 'PG Mono';letter-spacing:.22em;color:#b0a284;z-index:20}
+.foot{color:#b0a284}
+.scene{position:absolute;left:50%;top:52%;transform-style:preserve-3d;
+  /* five degrees off the resolve axis */
+  transform:translate(-50%,-50%) rotateX(9deg) rotateY(-8deg)}
+.plane{position:absolute;background:linear-gradient(160deg,#ffffff,#f3eee3);border-radius:14px;
+  box-shadow:0 2px 0 #e7dfce inset; transform-style:preserve-3d}
+.plane::after{content:'';position:absolute;inset:0;border-radius:14px;box-shadow:0 40px 60px rgba(120,100,60,.28);z-index:-1}
+/* zones at Detail-screen proportions (390×844 → scale 0.86; W≈335). Depth = authored. */
+.identity{left:-168px;top:-300px;width:335px;height:260px;transform:translateZ(0px)}
+.terms   {left:-168px;top:-48px;width:335px;height:196px;transform:translateZ(120px)}    /* rises −32 over hero */
+.next    {left:-168px;top:150px;width:335px;height:92px;transform:translateZ(56px)}
+.narr    {left:-168px;top:246px;width:335px;height:150px;transform:translateZ(28px)}
+.cta     {left:-168px;top:322px;width:335px;height:66px;transform:translateZ(170px)}      /* sticky, closest */
+.zlab{position:absolute;left:8px;top:7px;font:700 8px 'PG Mono';letter-spacing:.14em;color:#c9bfa8}
+.zlab{color:#c9bfa8}
+/* margin: verified measurements, digit-exact */
+.specs{position:absolute;right:70px;top:150px;width:250px;font:600 11px/1.9 'PG Mono';color:#7a6f57}
+.specs .h{font:700 10px 'PG Mono';letter-spacing:.16em;color:#a99a7c;margin-bottom:10px}
+.specs b{color:#2b2415}
+.specs .line{margin-top:14px;font-size:10px;color:#8a7f63;border-top:1px solid #cabfa6;padding-top:10px}
+.specs .line{border-top:1px solid #cabfa6}
+.title{position:absolute;left:70px;top:130px;width:300px}
+.title h2{font-family:'PG Display';font-size:40px;line-height:.98;color:#2b2415}
+.title p{font:600 11px/1.6 'PG Mono';color:#8a7f63;margin-top:14px}
+</style></head><body><div class="page">
+<div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 07 · THE ALMOST-ALIGNED ANGLE</span></div>
+
+<div class="title"><h2>Structure<br>before style.</h2>
+  <p>Every screen began as a structural argument: what appears first, what persists, what waits.</p></div>
+
+<div class="scene">
+  <div class="plane identity"><span class="zlab">IDENTITY · HERO FIELD</span></div>
+  <div class="plane terms"><span class="zlab">TERMS · 5 ROWS · RISES −32</span></div>
+  <div class="plane next"><span class="zlab">NEXT ACTION</span></div>
+  <div class="plane narr"><span class="zlab">ROLE NARRATIVE · ORG STRIP</span></div>
+  <div class="plane cta"><span class="zlab">STICKY CTA · 790</span></div>
+</div>
+
+<div class="specs"><div class="h">MEASUREMENTS SHIPPED IN THE BUILD</div>
+  Frame <b>390 × 844</b><br>Hero field ends <b>318</b><br>Terms rise over it <b>−32</b><br>Sticky CTA <b>790</b><br>
+  Card radius <b>20</b> · Gutter <b>20</b><br>Terms row pad <b>9</b> · Hairline <b>1</b>
+  <div class="line">plan geometry verified · depth authored</div></div>
+
+<div class="foot"><span>FIVE ZONES LOCKED BEFORE A SINGLE COLOUR EXISTED — ACHROMATIC BY THE PRODUCT'S OWN LAW</span><span>2D GEOMETRY VERIFIED · SPATIAL DEPTH AUTHORED</span></div>
+</div></body></html>
