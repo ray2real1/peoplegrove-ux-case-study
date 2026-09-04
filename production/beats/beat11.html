@@ -1,164 +1,50 @@
 <!doctype html><html><head><meta charset="utf-8">
-<link rel="stylesheet" href="../build/fonts.css">
-<link rel="stylesheet" href="../build/tokens.css">
+<link rel="stylesheet" href="../build/fonts.css"><link rel="stylesheet" href="../build/tokens.css">
 <style>
-/* BEAT 11 — ONE SCREEN, THREE DISTANCES.  Dawn nightstand, not void.
-   Dashboard at true size + massive Path row + macro resume card. No motion, no headline. */
-.page{background:
-   radial-gradient(120% 90% at 12% 0%, #12395a 0%, #06263e 42%, #021a2e 100%);
-   font-family:'PG Mono',monospace;color:#fff}
-.deckbar{position:absolute;left:40px;right:40px;top:26px;display:flex;justify-content:space-between;
-   font-size:12px;letter-spacing:.22em;color:#5b7c99}
-.deckbar{color:#5b7c99}
-.foot{position:absolute;left:40px;right:40px;bottom:24px;display:flex;justify-content:space-between;
-   font-size:11px;letter-spacing:.22em;color:#3f6482}
-
-/* ---------- dashboard component (logical 390 wide) ---------- */
-.dash{width:390px;background:#00253E;color:#fff;font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;
-   border-radius:34px;overflow:hidden;box-shadow:0 40px 90px rgba(0,0,0,.55);position:relative}
-.dash .sb{display:flex;justify-content:space-between;align-items:center;padding:12px 22px 2px;font-size:13px;font-weight:600}
-.dash .sb .dots{letter-spacing:2px}
-.dash .hd{display:flex;justify-content:space-between;align-items:center;padding:8px 22px 4px}
-.dash .brand{display:flex;align-items:center;gap:7px;font-weight:700;font-size:15px}
-.dash .brand .p{width:20px;height:20px;border-radius:50%;background:#24C86F;color:#00253E;font-weight:800;
-   display:flex;align-items:center;justify-content:center;font-size:12px}
-.dash .av{width:26px;height:26px;border-radius:50%;background:#20737B;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px}
-.dash .wk{padding:14px 22px 0;font-size:11px;letter-spacing:.16em;color:#7f9cb4;font-weight:700}
-.dash .greet{padding:2px 22px 0;font-size:34px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
-.dash .greet i{font-family:'PG Serif Italic';font-weight:400;font-style:italic;letter-spacing:0}
-.dash .sub{padding:8px 22px 0;font-size:12.5px;color:#9fb4c7}
-.dash .sub b{color:#71FF4E;font-weight:700}
-/* path */
-.path{margin:16px 22px 0;padding-top:8px}
-.path .lab{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.16em;color:#7f9cb4;font-weight:700}
-.path .track{position:relative;height:12px;margin:16px 4px 6px}
-.path .track .line{position:absolute;top:5px;left:4%;right:4%;height:2px;background:#20737B}
-.path .track .n{position:absolute;top:0;width:12px;height:12px;border-radius:50%;background:#24C86F;transform:translateX(-50%)}
-.path .track .n.hollow{background:#00253E;border:2px solid #3f6482}
-.path .nums{display:flex;justify-content:space-between;text-align:center}
-.path .nums .c{width:25%}
-.path .nums .v{font-family:'PG Display';font-size:26px;line-height:1}
-.path .nums .k{font-size:8.5px;letter-spacing:.12em;color:#7f9cb4;margin-top:5px;font-weight:700}
-/* resume card */
-.res{margin:14px 16px 0}
-.res .ip{font-size:9.5px;letter-spacing:.16em;color:#7f9cb4;font-weight:700;margin:0 6px 6px}
-.card{background:#0c3350;border:1px solid #1c4a68;border-radius:20px;padding:15px 16px;position:relative}
-.card .top{display:flex;align-items:center;gap:10px}
-.card .ah{width:34px;height:34px;border-radius:50%;border:2px solid #20737B;display:flex;align-items:center;
-   justify-content:center;font-weight:800;font-size:12px;color:#8fd3d6}
-.card .org{font-size:9px;letter-spacing:.14em;color:#8fb0c4;font-weight:700}
-.card .ttl{font-size:16px;font-weight:800;margin-top:1px}
-.card .stamp{margin-top:9px;font-size:10px;letter-spacing:.06em;color:#71c9b0;font-weight:700;border-left:3px solid #20737B;padding-left:8px}
-.card .act{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:11px;border-top:1px solid #1c4a68}
-.card .act .lft{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600}
-.card .due{font-size:10px;letter-spacing:.1em;font-weight:800;color:#00253E;background:#FFCA0B;border-radius:6px;padding:4px 8px}
-/* matched */
-.mt{margin:16px 22px 0;display:flex;justify-content:space-between;font-size:11px}
-.mt .a{font-weight:800}.mt .b{color:#71FF4E;font-weight:700}
-.fresh{margin:10px 16px 0;height:70px;background:linear-gradient(180deg,#0c3350,#0c335000);border:1px solid #1c4a68;border-bottom:none;border-radius:16px 16px 0 0;padding:12px 14px}
-.fresh .cat{font-size:8.5px;letter-spacing:.16em;color:#8fb0c4;font-weight:700}
-.fresh .rt{font-size:14px;font-weight:800;margin-top:6px}
-.nav{display:flex;justify-content:space-around;padding:14px 10px 18px;margin-top:8px;border-top:1px solid #103049;background:#04213a}
-.nav .it{font-size:8.5px;letter-spacing:.1em;color:#5b7c99;text-align:center;font-weight:700}
-.nav .it.on{color:#71FF4E}
-.nav .ic{width:18px;height:18px;border:2px solid currentColor;border-radius:5px;margin:0 auto 5px}
-.nav .it.on .ic{background:#71FF4E;border-color:#71FF4E}
-
-/* ---------- three-distance composition ---------- */
-.anchor{position:absolute;left:70px;top:118px;transform:scale(.72);transform-origin:top left}
-.anchor .tag{font-size:11px;letter-spacing:.22em;color:#5b7c99;margin-bottom:12px;font-family:'PG Mono'}
-/* massive path row */
-.hero{position:absolute;right:56px;top:150px;width:720px}
-.hero .cap{font-size:12px;letter-spacing:.24em;color:#6f93b0;margin-bottom:20px}
-.hero .row{display:flex;align-items:flex-end;justify-content:space-between}
-.hero .c{text-align:center;flex:1}
-.hero .v{font-family:'PG Display';font-size:118px;line-height:.8;color:#fff}
-.hero .c.small .v{font-size:150px}
-.hero .k{font-size:12px;letter-spacing:.16em;color:#7f9cb4;margin-top:14px;font-weight:700;font-family:'PG Mono'}
-.hero .dotline{position:relative;height:14px;margin:26px 26px 30px}
-.hero .dotline .l{position:absolute;top:6px;left:3%;right:3%;height:2px;background:#20737B}
-.hero .dotline .d{position:absolute;top:0;width:14px;height:14px;border-radius:50%;background:#24C86F;transform:translateX(-50%)}
-.hero .dotline .d.h{background:#06263e;border:2px solid #3f6482}
-.hero .carry{font-family:'PG Mono';font-size:12px;letter-spacing:.14em;color:#71FF4E;margin-top:6px}
-/* macro resume */
-.macro{position:absolute;right:56px;bottom:120px;width:560px;transform-origin:bottom right}
-.macro .cap{font-size:12px;letter-spacing:.24em;color:#6f93b0;margin-bottom:14px}
-.macro .card{transform:scale(1.42);transform-origin:top left;width:390px}
+/* BEAT 11 — ONE SCREEN, THREE DISTANCES.  Product layer = RECOVERED canonical Dashboard
+   pixels (600dpi vector raster from canonical V2 PDF p6). Three magnifications of ONE
+   identical render: true device size + massive Path row + macro resume card. Dawn, no motion. */
+.page{background:radial-gradient(120% 90% at 12% 0%, #12395a 0%, #06263e 42%, #021a2e 100%);
+  font-family:'PG Mono',monospace;color:#fff}
+.deckbar{position:absolute;left:44px;right:44px;top:26px;display:flex;justify-content:space-between;
+  font:700 12px 'PG Mono';letter-spacing:.22em;color:#5b7c99;z-index:9}
+.foot{position:absolute;left:44px;right:44px;bottom:24px;display:flex;justify-content:space-between;
+  font:700 11px 'PG Mono';letter-spacing:.22em;color:#3f6482;z-index:9}
+.cap{font:700 12px 'PG Mono';letter-spacing:.22em;color:#6f93b0;margin-bottom:12px}
+/* anchor — true device size */
+.anchor{position:absolute;left:74px;top:150px}
+.anchor img{width:300px;border-radius:30px;display:block;box-shadow:0 40px 90px rgba(0,0,0,.55)}
+/* magnified band viewers (same source image, scaled+clipped) */
+.view{overflow:hidden;border-radius:14px;box-shadow:0 26px 60px rgba(0,0,0,.5)}
+.view img{display:block}
+.hero{position:absolute;right:52px;top:150px;width:1000px}
+.hero .view{width:1000px;height:300px}
+.hero .view img{width:1000px} /* S=1000/1150=0.87; path band shown magnified vs anchor */
+.macro{position:absolute;right:52px;bottom:104px;width:560px}
+.macro .view{width:560px;height:330px}
+.macro .view img{width:560px}
+.carry{font:700 12px 'PG Mono';letter-spacing:.16em;color:#71FF4E;margin-top:10px}
 </style></head>
 <body><div class="page">
-  <div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 11 · ONE RENDER, THREE DISTANCES</span></div>
+  <div class="deckbar"><span>PEOPLEGROVE V2 — OPPORTUNITY HUB</span><span>BEAT 11 · ONE RENDER, THREE DISTANCES · RECOVERED UI</span></div>
 
-  <!-- ANCHOR: full dashboard at true device size -->
   <div class="anchor">
-    <div class="tag">TRUE DEVICE SIZE</div>
-    <div class="dash">
-      <div class="sb"><span>9:41</span><span class="dots">●●● ⌃ ▮</span></div>
-      <div class="hd"><div class="brand"><span class="p">P</span>peoplegrove</div><div class="av">M</div></div>
-      <div class="wk">TUESDAY · WEEK 6</div>
-      <div class="greet">Keep <i>moving,</i><br>Maya.</div>
-      <div class="sub"><b>24</b> new matches since Sunday · <b>3</b> need you this week</div>
-      <div class="path">
-        <div class="lab"><span>YOUR PATH</span><span>6 you're carrying</span></div>
-        <div class="track"><div class="line"></div>
-          <div class="n" style="left:12.5%"></div><div class="n" style="left:37.5%"></div>
-          <div class="n" style="left:62.5%"></div><div class="n hollow" style="left:87.5%"></div></div>
-        <div class="nums">
-          <div class="c"><div class="v">128</div><div class="k">IN VIEW</div></div>
-          <div class="c"><div class="v">3</div><div class="k">SAVED</div></div>
-          <div class="c"><div class="v">2</div><div class="k">APPLIED</div></div>
-          <div class="c"><div class="v">1</div><div class="k">IN REVIEW</div></div>
-        </div>
-      </div>
-      <div class="res">
-        <div class="ip">IN PROGRESS · PICK UP WHERE YOU LEFT OFF</div>
-        <div class="card">
-          <div class="top"><div class="ah">AH</div><div><div class="org">ASPEN HEALTH</div><div class="ttl">Nursing Clinical Rotation</div></div></div>
-          <div class="stamp">SAVED Tue · 9:41 AM</div>
-          <div class="act"><div class="lft">📄 Upload immunization records</div><div class="due">DUE THU</div></div>
-        </div>
-      </div>
-      <div class="mt"><span class="a">Fresh for you</span><span class="b">See all</span></div>
-      <div class="fresh"><div class="cat">ENGINEERING · CO-OP</div><div class="rt">Robotics Engineering Co-op</div></div>
-      <div class="nav">
-        <div class="it on"><div class="ic"></div>HOME</div>
-        <div class="it"><div class="ic"></div>DISCOVER</div>
-        <div class="it"><div class="ic"></div>TRACKER</div>
-        <div class="it"><div class="ic"></div>INTERESTS</div>
-      </div>
-    </div>
+    <div class="cap">TRUE DEVICE SIZE</div>
+    <img src="../sources/screens_canon/dashboard.png" alt="Dashboard">
   </div>
 
-  <!-- HERO: the Path row, massive -->
   <div class="hero">
-    <div class="cap">THE PATH — REPORTING FOUR POSITIONS, NOT A SCORE</div>
-    <div class="dotline"><div class="l"></div>
-      <div class="d" style="left:12.5%"></div><div class="d" style="left:37.5%"></div>
-      <div class="d" style="left:62.5%"></div><div class="d h" style="left:87.5%"></div></div>
-    <div class="row">
-      <div class="c"><div class="v">128</div><div class="k">IN VIEW</div></div>
-      <div class="c"><div class="v">3</div><div class="k">SAVED</div></div>
-      <div class="c"><div class="v">2</div><div class="k">APPLIED</div></div>
-      <div class="c"><div class="v">1</div><div class="k">IN REVIEW</div></div>
-    </div>
-    <div class="carry">6 YOU'RE CARRYING</div>
+    <div class="cap">THE PATH — 128 · 3 · 2 · 1, VERIFIED AGAINST THE ANCHOR</div>
+    <!-- path band ~33–45% of 2430px tall image; img width 1000 (S=0.87) -> band top = .33*2430*.87 = 698px -->
+    <div class="view"><img src="../sources/screens_canon/dashboard.png" style="margin-top:-690px"></div>
+    <div class="carry">6 YOU'RE CARRYING · THE SMALLEST TRUE NUMBER, PERFECTLY CRISP</div>
   </div>
 
-  <!-- MACRO: resume card -->
   <div class="macro">
     <div class="cap">THE RESUME CARD — SEAL · DATE · DUE THU</div>
-    <div class="card" style="background:#0c3350;border:1px solid #1c4a68;border-radius:20px;padding:15px 16px;color:#fff;font-family:-apple-system,Arial,sans-serif">
-      <div style="display:flex;align-items:center;gap:12px">
-        <div style="width:40px;height:40px;border-radius:50%;border:2px solid #20737B;display:flex;align-items:center;justify-content:center;font-weight:800;color:#8fd3d6">AH</div>
-        <div><div style="font-size:10px;letter-spacing:.14em;color:#8fb0c4;font-weight:700">ASPEN HEALTH</div>
-        <div style="font-size:19px;font-weight:800">Nursing Clinical Rotation</div></div>
-      </div>
-      <div style="margin-top:10px;font-size:11px;letter-spacing:.06em;color:#71c9b0;font-weight:700;border-left:3px solid #20737B;padding-left:9px">SAVED Tue · 9:41 AM</div>
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:13px;padding-top:12px;border-top:1px solid #1c4a68">
-        <div style="font-size:13px;font-weight:600">Upload immunization records</div>
-        <div style="font-size:11px;letter-spacing:.1em;font-weight:800;color:#00253E;background:#FFCA0B;border-radius:6px;padding:5px 9px">DUE THU</div>
-      </div>
-    </div>
+    <!-- resume band ~48–72%; band top = .48*2430*(560/1150)= .48*2430*.487 = 568px -->
+    <div class="view"><img src="../sources/screens_canon/dashboard.png" style="width:560px;margin-top:-560px"></div>
   </div>
 
-  <div class="foot"><span>KEEP MOVING, MAYA · TUESDAY · WEEK 6</span><span>STILLNESS IS THE LOCK — THIS BEAT HAS NO MOTION</span></div>
+  <div class="foot"><span>KEEP MOVING, MAYA · TUESDAY · WEEK 6 · RECOVERED CANONICAL PIXELS</span><span>STILLNESS IS THE LOCK — THIS BEAT HAS NO MOTION</span></div>
 </div></body></html>
