@@ -19,7 +19,7 @@ else honest STOP).
 | 07 | The Almost-Aligned Angle | CONSTRUCTIBLE | PENDING | CSS-3D 5 zones, −32 overhang; PROOF: dual-read |
 | 08 | Hanging by a Date | CONSTRUCTIBLE | PASS (flagship) | RECOVERED Nursing card; R=card+OCT3 tab; centroid-below-pivot θ=136.94° derived; hard shadow; open ring; non-emissive yellow; uncropped |
 | 09 | Lit Only by the Interface | PHOTO | PENDING | night-walk trio; STOP risk |
-| 10 | Everything, Drawn Once | CONSTRUCTIBLE | PENDING | token inventory flat-lay |
+| 10 | Everything, Drawn Once | CONSTRUCTIBLE | PASS (v1) | dense token inventory flat-lay; all component variants; wildcard tile dead centre; warm paper |
 | 11 | One Screen, Three Distances | CONSTRUCTIBLE | PASS (recovered) | REBUILT on RECOVERED canonical Dashboard pixels (p6 @600dpi); 3 magnifications of one identical render |
 | 12 | Standing Too Close | CONSTRUCTIBLE | PASS (v1) | 128 skeletons exact populations; 4 canon records legible; origin screen; veil proof PASS |
 | 13 | The Turn | CONSTRUCTIBLE | PASS (v1) | same seed as 12; 104 dimmed hue-intact; 24 lit; Nursing legible; filter sheet 128→24 |
