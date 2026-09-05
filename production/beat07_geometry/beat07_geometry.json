@@ -1,0 +1,952 @@
+{
+  "beat": "07",
+  "title": "THE ALMOST-ALIGNED ANGLE",
+  "generated_utc": "2026-09-05T10:34:52Z",
+  "coordinate_system": {
+    "origin": "top-left",
+    "x_positive": "right",
+    "y_positive": "down",
+    "units": "source pixels",
+    "frame_width": 390,
+    "frame_height": 844
+  },
+  "truth_statement": {
+    "plan_geometry": "VERIFIED",
+    "physical_depth": "AUTHORED",
+    "label": "plan geometry verified \u00b7 depth authored"
+  },
+  "canonical_source": {
+    "file": "PEOPLEGROVE_CANONICAL_V2_SOURCE.pdf",
+    "page": 7,
+    "page_count": 18,
+    "sheet": "CONSTRUCTION SHEET \u2014 OPPORTUNITY DETAIL",
+    "recovery": "VECTOR (drawing objects); no raster, no OCR geometry",
+    "source_path": "production/beat07_geometry/source/PEOPLEGROVE_CANONICAL_V2_SOURCE.pdf"
+  },
+  "canonical_anchors": {
+    "hero_field_end_y": 318,
+    "terms_rise": -32,
+    "sticky_cta_y": 790,
+    "sticky_cta_height": 54,
+    "gutter": 20,
+    "card_radius": 20,
+    "terms_row_pad": 9,
+    "hairline": 1
+  },
+  "printed_constants_extra": {
+    "base_unit": 4,
+    "sheet_radius": 30,
+    "category_rule": 3,
+    "tracker_keyline": 4,
+    "edge_tab": 22,
+    "scroll_clearance": 104
+  },
+  "radius_provenance": {
+    "nominal_canonical_token": {
+      "card_radius": 20,
+      "class": "NOMINAL CANONICAL TOKEN PRINTED ON THE CONSTRUCTION SHEET",
+      "note": "Printed in the source legend. Documented; must not overwrite recovered plane outlines."
+    },
+    "construction_sheet_drawn_geometry": {
+      "class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "per_object_radius_src": {
+        "terms_card": 17.5,
+        "next_action_card": 19.5,
+        "role_narrative_card": 11.5,
+        "org_strip_card": 11.5
+      },
+      "note": "Recovered per-object corner radii from the drawn vector outlines. NOT automatically the product's shipped per-component radius spec. Use these recovered outlines for each plane."
+    },
+    "divergence_classification": "INFORMATIVE SOURCE DIVERGENCE \u2014 NOT A POSITIONAL GEOMETRY FAILURE",
+    "downstream_law": "USE THE RECOVERED CANONICAL CONSTRUCTION-SHEET OUTLINE FOR EACH BEAT 07 PLANE; the nominal card_radius=20 token remains documented separately and must not silently overwrite the recovered plane outlines."
+  },
+  "pdf_transform": {
+    "page": 7,
+    "source_frame_bbox_pdf": [
+      441.0,
+      34.5,
+      720.338,
+      639.015
+    ],
+    "scale_x": 0.71625,
+    "scale_y": 0.71625,
+    "translation_x": 441.0,
+    "translation_y": 34.5,
+    "inverse": "src = (pdf - translation)/scale",
+    "uniform": true
+  },
+  "recovered_subregions": [
+    {
+      "id": "detail_frame",
+      "label": "OPPORTUNITY DETAIL FRAME",
+      "pdf_drawing_index": 3,
+      "pdf_bbox": [
+        441.0,
+        34.5,
+        720.338,
+        639.015
+      ],
+      "src_path_bbox": [
+        0.0,
+        0.0,
+        390.0,
+        844.0
+      ],
+      "source_bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": null,
+      "fill": [
+        0.9137,
+        0.9333,
+        0.9412
+      ],
+      "stroke": null,
+      "bound_class": "fill-edge (integer)",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "hero_field",
+      "label": "HERO FIELD / IDENTITY",
+      "pdf_drawing_index": 5,
+      "pdf_bbox": [
+        441.0,
+        34.5,
+        720.338,
+        262.268
+      ],
+      "src_path_bbox": [
+        0.0,
+        0.0,
+        390.0,
+        318.0
+      ],
+      "source_bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 318
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": null,
+      "fill": [
+        0.7647,
+        0.8157,
+        0.8431
+      ],
+      "stroke": null,
+      "bound_class": "fill-edge (integer)",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "hero_chip_left",
+      "label": "HERO CHIP (left)",
+      "pdf_drawing_index": 7,
+      "pdf_bbox": [
+        455.683,
+        80.698,
+        486.482,
+        111.497
+      ],
+      "src_path_bbox": [
+        20.5,
+        64.5,
+        63.5,
+        107.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.851,
+        0.8863,
+        0.902
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "hero_chip_right",
+      "label": "HERO CHIP (right)",
+      "pdf_drawing_index": 8,
+      "pdf_bbox": [
+        674.856,
+        80.698,
+        705.654,
+        111.497
+      ],
+      "src_path_bbox": [
+        326.5,
+        64.5,
+        369.5,
+        107.5
+      ],
+      "source_bbox": {
+        "x": 326,
+        "y": 64,
+        "width": 44,
+        "height": 44
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.851,
+        0.8863,
+        0.902
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "hero_avatar",
+      "label": "HERO AVATAR / LOGO",
+      "pdf_drawing_index": 9,
+      "pdf_bbox": [
+        455.683,
+        140.863,
+        492.212,
+        177.392
+      ],
+      "src_path_bbox": [
+        20.5,
+        148.5,
+        71.5,
+        199.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 148,
+        "width": 52,
+        "height": 52
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "terms_card",
+      "label": "TERMS CARD (5 ROWS)",
+      "pdf_drawing_index": 10,
+      "pdf_bbox": [
+        455.683,
+        239.706,
+        705.654,
+        413.754
+      ],
+      "src_path_bbox": [
+        20.5,
+        286.5,
+        369.5,
+        529.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 286,
+        "width": 350,
+        "height": 244
+      },
+      "drawn_corner_radius_src": 17.5,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "next_action_card",
+      "label": "NEXT ACTION CARD",
+      "pdf_drawing_index": 25,
+      "pdf_bbox": [
+        455.683,
+        428.796,
+        705.654,
+        483.947
+      ],
+      "src_path_bbox": [
+        20.5,
+        550.5,
+        369.5,
+        627.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 550,
+        "width": 350,
+        "height": 78
+      },
+      "drawn_corner_radius_src": 19.5,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.7647,
+        0.8157,
+        0.8431
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "role_narrative_card",
+      "label": "ROLE NARRATIVE CARD",
+      "pdf_drawing_index": 26,
+      "pdf_bbox": [
+        455.683,
+        500.421,
+        705.654,
+        545.544
+      ],
+      "src_path_bbox": [
+        20.5,
+        650.5,
+        369.5,
+        713.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 650,
+        "width": 350,
+        "height": 64
+      },
+      "drawn_corner_radius_src": 11.5,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.9137,
+        0.9333,
+        0.9412
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "org_strip_card",
+      "label": "ORG STRIP CARD",
+      "pdf_drawing_index": 29,
+      "pdf_bbox": [
+        455.683,
+        556.288,
+        705.654,
+        594.249
+      ],
+      "src_path_bbox": [
+        20.5,
+        728.5,
+        369.5,
+        781.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 728,
+        "width": 350,
+        "height": 54
+      },
+      "drawn_corner_radius_src": 11.5,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.9137,
+        0.9333,
+        0.9412
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "sticky_cta_primary",
+      "label": "STICKY CTA (primary)",
+      "pdf_drawing_index": 30,
+      "pdf_bbox": [
+        455.683,
+        600.696,
+        648.354,
+        638.657
+      ],
+      "src_path_bbox": [
+        20.5,
+        790.5,
+        289.5,
+        843.5
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 790,
+        "width": 270,
+        "height": 54
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.7647,
+        0.8157,
+        0.8431
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    },
+    {
+      "id": "action_control",
+      "label": "ACTION CONTROL (secondary)",
+      "pdf_drawing_index": 31,
+      "pdf_bbox": [
+        657.666,
+        600.696,
+        695.627,
+        638.657
+      ],
+      "src_path_bbox": [
+        302.5,
+        790.5,
+        355.5,
+        843.5
+      ],
+      "source_bbox": {
+        "x": 302,
+        "y": 790,
+        "width": 54,
+        "height": 54
+      },
+      "drawn_corner_radius_src": null,
+      "radius_class": "CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY",
+      "stroke_width_pdf": 0.7163,
+      "fill": [
+        0.851,
+        0.8863,
+        0.902
+      ],
+      "stroke": [
+        0.6863,
+        0.7451,
+        0.7765
+      ],
+      "bound_class": "outer-from-1px-stroke-path-center",
+      "source_class": "RECOVERED / VERIFIED VECTOR GEOMETRY",
+      "verification": "PDF VECTOR GEOMETRY"
+    }
+  ],
+  "terms_rows": [
+    {
+      "index": 15,
+      "kind": "row-label-chip",
+      "pdf_bbox": [
+        466.785,
+        249.375,
+        519.787,
+        255.821
+      ],
+      "src_path_bbox": [
+        36.0,
+        300.0,
+        110.0,
+        309.0
+      ],
+      "fill": [
+        0.8275,
+        0.8667,
+        0.8863
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 16,
+      "kind": "row-label-chip",
+      "pdf_bbox": [
+        466.785,
+        283.755,
+        519.787,
+        290.201
+      ],
+      "src_path_bbox": [
+        36.0,
+        348.0,
+        110.0,
+        357.0
+      ],
+      "fill": [
+        0.8275,
+        0.8667,
+        0.8863
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 17,
+      "kind": "row-label-chip",
+      "pdf_bbox": [
+        466.785,
+        318.135,
+        519.787,
+        324.581
+      ],
+      "src_path_bbox": [
+        36.0,
+        396.0,
+        110.0,
+        405.0
+      ],
+      "fill": [
+        0.8275,
+        0.8667,
+        0.8863
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 18,
+      "kind": "row-label-chip",
+      "pdf_bbox": [
+        466.785,
+        352.515,
+        519.787,
+        358.961
+      ],
+      "src_path_bbox": [
+        36.0,
+        444.0,
+        110.0,
+        453.0
+      ],
+      "fill": [
+        0.8275,
+        0.8667,
+        0.8863
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 19,
+      "kind": "row-label-chip",
+      "pdf_bbox": [
+        466.785,
+        386.895,
+        519.787,
+        393.341
+      ],
+      "src_path_bbox": [
+        36.0,
+        492.0,
+        110.0,
+        501.0
+      ],
+      "fill": [
+        0.8275,
+        0.8667,
+        0.8863
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 20,
+      "kind": "row-value-chip",
+      "pdf_bbox": [
+        602.872,
+        249.375,
+        694.552,
+        255.821
+      ],
+      "src_path_bbox": [
+        226.0,
+        300.0,
+        354.0,
+        309.0
+      ],
+      "fill": [
+        0.7255,
+        0.7804,
+        0.8118
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 21,
+      "kind": "row-value-chip",
+      "pdf_bbox": [
+        625.792,
+        283.755,
+        694.552,
+        290.201
+      ],
+      "src_path_bbox": [
+        258.0,
+        348.0,
+        354.0,
+        357.0
+      ],
+      "fill": [
+        0.7255,
+        0.7804,
+        0.8118
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 22,
+      "kind": "row-value-chip",
+      "pdf_bbox": [
+        634.387,
+        318.135,
+        694.552,
+        324.581
+      ],
+      "src_path_bbox": [
+        270.0,
+        396.0,
+        354.0,
+        405.0
+      ],
+      "fill": [
+        0.7255,
+        0.7804,
+        0.8118
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 23,
+      "kind": "row-value-chip",
+      "pdf_bbox": [
+        650.145,
+        352.515,
+        694.552,
+        358.961
+      ],
+      "src_path_bbox": [
+        292.0,
+        444.0,
+        354.0,
+        453.0
+      ],
+      "fill": [
+        0.7255,
+        0.7804,
+        0.8118
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    },
+    {
+      "index": 24,
+      "kind": "row-value-chip",
+      "pdf_bbox": [
+        663.037,
+        386.895,
+        694.552,
+        393.341
+      ],
+      "src_path_bbox": [
+        310.0,
+        492.0,
+        354.0,
+        501.0
+      ],
+      "fill": [
+        0.7255,
+        0.7804,
+        0.8118
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": 2.0
+    }
+  ],
+  "terms_dividers": [
+    {
+      "index": 11,
+      "kind": "hairline-divider",
+      "pdf_bbox": [
+        466.785,
+        276.592,
+        694.552,
+        277.309
+      ],
+      "src_path_bbox": [
+        36.0,
+        338.0,
+        354.0,
+        339.0
+      ],
+      "fill": [
+        0.7804,
+        0.8275,
+        0.8549
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": null
+    },
+    {
+      "index": 12,
+      "kind": "hairline-divider",
+      "pdf_bbox": [
+        466.785,
+        310.973,
+        694.552,
+        311.689
+      ],
+      "src_path_bbox": [
+        36.0,
+        386.0,
+        354.0,
+        387.0
+      ],
+      "fill": [
+        0.7804,
+        0.8275,
+        0.8549
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": null
+    },
+    {
+      "index": 13,
+      "kind": "hairline-divider",
+      "pdf_bbox": [
+        466.785,
+        345.353,
+        694.552,
+        346.069
+      ],
+      "src_path_bbox": [
+        36.0,
+        434.0,
+        354.0,
+        435.0
+      ],
+      "fill": [
+        0.7804,
+        0.8275,
+        0.8549
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": null
+    },
+    {
+      "index": 14,
+      "kind": "hairline-divider",
+      "pdf_bbox": [
+        466.785,
+        379.733,
+        694.552,
+        380.449
+      ],
+      "src_path_bbox": [
+        36.0,
+        482.0,
+        354.0,
+        483.0
+      ],
+      "fill": [
+        0.7804,
+        0.8275,
+        0.8549
+      ],
+      "stroke": null,
+      "stroke_width_pdf": null,
+      "corner_radius_src": null
+    }
+  ],
+  "semantic_zones": [
+    {
+      "id": "identity",
+      "label": "IDENTITY / HERO FIELD",
+      "source_class": "DIRECTLY RECOVERED",
+      "derived_from": [
+        "hero_field"
+      ],
+      "source_bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 318
+      },
+      "z_order_2d": 1,
+      "notes": "Single recovered vector region (hero field fill, index 5)."
+    },
+    {
+      "id": "terms",
+      "label": "TERMS",
+      "source_class": "DIRECTLY RECOVERED",
+      "derived_from": [
+        "terms_card"
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 286,
+        "width": 350,
+        "height": 244
+      },
+      "z_order_2d": 2,
+      "overlap": {
+        "type": "vertical-rise",
+        "value": -32,
+        "relative_to": "hero_field",
+        "verification": "hero_field.bottom(318) - terms_card.top(286) = 32"
+      },
+      "notes": "Recovered vector card (index 10). 5 rows (label+value chips, pad 9) + 4 hairline dividers."
+    },
+    {
+      "id": "next_action",
+      "label": "NEXT ACTION",
+      "source_class": "DIRECTLY RECOVERED",
+      "derived_from": [
+        "next_action_card"
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 550,
+        "width": 350,
+        "height": 78
+      },
+      "z_order_2d": 3,
+      "notes": "Single recovered vector card (index 25)."
+    },
+    {
+      "id": "narrative",
+      "label": "ROLE NARRATIVE / ORG STRIP",
+      "source_class": "DERIVED FROM VERIFIED VECTOR SUBREGIONS",
+      "derived_from": [
+        "role_narrative_card",
+        "org_strip_card"
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 650,
+        "width": 350,
+        "height": 132
+      },
+      "z_order_2d": 4,
+      "notes": "Union of role narrative (26) + org strip (29). No single vector object defines this union."
+    },
+    {
+      "id": "action",
+      "label": "STICKY CTA",
+      "source_class": "DERIVED FROM VERIFIED VECTOR SUBREGIONS",
+      "derived_from": [
+        "sticky_cta_primary",
+        "action_control"
+      ],
+      "source_bbox": {
+        "x": 20,
+        "y": 790,
+        "width": 336,
+        "height": 54
+      },
+      "z_order_2d": 5,
+      "notes": "Union of primary CTA pill (30) + secondary action control (31)."
+    }
+  ],
+  "source_gaps": [],
+  "validation": {
+    "frame_matches_390x844": true,
+    "hero_end_matches_318": true,
+    "terms_overlap_matches_minus_32": true,
+    "sticky_cta_matches_790_54": true,
+    "gutter_matches_20": true,
+    "terms_row_pad_matches_9": true,
+    "hairline_matches_1": true,
+    "single_transform_verified": true,
+    "transform": {
+      "scale_x": 0.71625,
+      "scale_y": 0.71625,
+      "translation_x": 441.0,
+      "translation_y": 34.5,
+      "note": "uniform; scale fixed by stamped 1px hairline stroke width 0.71625 and frame->390x844"
+    },
+    "no_raster_measurement_used": true,
+    "card_radius_note": "Nominal token card_radius=20 documented separately (radius_provenance). Recovered drawn corner radii vary per object and are preserved as CONSTRUCTION-SHEET-DRAWN VECTOR GEOMETRY. Divergence is INFORMATIVE / NON-POSITIONAL \u2014 not a geometry failure."
+  },
+  "status": "PASS"
+}
